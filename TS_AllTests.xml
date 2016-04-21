@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteAllTC" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="testCases.TCLogInLogOut_Test" />
+			<class name="testCases.TCTestZakladek_Test" />
+			<class name="testCases.TCVisibilityCalendarPBXCall_Test" />
+			<class name="testCases.TCKolejki_WyszukiwanieCalli_Test" />
+			<class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" />
+			<class name="testCases.TCCosting_ProjektCostingowy_ExportUsług_Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- SuiteAllTC -->
