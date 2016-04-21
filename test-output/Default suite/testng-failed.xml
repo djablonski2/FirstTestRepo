@@ -3,18 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test"/>
+      <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test">
-        <methods>
-          <include name="main"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
