@@ -8,7 +8,7 @@
 			<class name="testCases.TCVisibilityCalendarPBXCall_Test" />
 			<class name="testCases.TCKolejki_WyszukiwanieCalli_Test" />
 			<class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" />
-			<class name="testCases.TCCosting_ProjektCostingowy_ExportUsług_Test" />
+			<class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- SuiteAllTC -->
