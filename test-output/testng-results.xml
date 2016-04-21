@@ -5,27 +5,27 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39793" started-at="2016-04-21T07:33:43Z" finished-at="2016-04-21T07:34:23Z">
+  <suite name="Default suite" duration-ms="19652" started-at="2016-04-21T10:08:05Z" finished-at="2016-04-21T10:08:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39793" started-at="2016-04-21T07:33:43Z" finished-at="2016-04-21T07:34:23Z">
-      <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@7c4c98e7]" name="beforeMethod" is-config="true" duration-ms="8744" started-at="2016-04-21T09:33:43Z" finished-at="2016-04-21T09:33:52Z">
+    <test name="Default test" duration-ms="19652" started-at="2016-04-21T10:08:05Z" finished-at="2016-04-21T10:08:25Z">
+      <class name="testCases.TCLogInLogOut_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="beforeMethod" is-config="true" duration-ms="8104" started-at="2016-04-21T12:08:05Z" finished-at="2016-04-21T12:08:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@7c4c98e7]" name="main" duration-ms="31013" started-at="2016-04-21T09:33:52Z" finished-at="2016-04-21T09:34:23Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="main" duration-ms="11507" started-at="2016-04-21T12:08:13Z" finished-at="2016-04-21T12:08:24Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@7c4c98e7]" name="afterMethod" is-config="true" duration-ms="19" started-at="2016-04-21T09:34:23Z" finished-at="2016-04-21T09:34:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="afterMethod" is-config="true" duration-ms="25" started-at="2016-04-21T12:08:24Z" finished-at="2016-04-21T12:08:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCCosting_ProjektCostingowy_ExportUslug_Test -->
+      </class> <!-- testCases.TCLogInLogOut_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -40,6 +40,11 @@
 			<artifactId>apache-log4j-extras</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+<!-- 		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.2.1</version>
+		</dependency> --> <!-- Zakomentowane bo jeśli nie używam PhantomJS to nie chodzą testy, widocznie używane są inne biblioteki -->
 	</dependencies>
 
 	<build>

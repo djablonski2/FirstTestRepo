@@ -12,6 +12,7 @@ public class Constant {
 		public static final String FILE_TEST_DATA = "TestData.xlsx";
 		public static final String PATH_SCREENSHOT = "D:\\eclipse\\workspace\\ClientelePOFramework\\Screenshots\\";
 		public static final String PATH_DOWNLOAD_FILES = "D:\\eclipse\\workspace\\ClientelePOFramework\\DownloadFiles\\";
+		public static final String PATH_PHANTOMJS_EXE_FILE = "D:\\Downloads\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe";
 		public static final int WAIT_FOR_ELEMENT_TO_BE_CLICKABLE_SEC = 10;
 		public static final int DRIVER_IMPLICITLY_WAIT_SEC = 8;
 		public static final String CALL_ID_CALENDAR_CHECK = "721583";

@@ -18,6 +18,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
+//import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -27,6 +29,7 @@ public class Utils {
 
 	public static WebDriver driver = null;
 	private static String element = null;
+	//protected static DesiredCapabilities dCaps;
 
 	/***
 	 * Pobiera property ustawiane w pom.xml
@@ -71,8 +74,9 @@ public class Utils {
 	public static WebDriver OpenBrowser(String envURL) throws Exception {
 		try {
 
+	/** konfiguracja profilu Firefoxa ----> **/
 			FirefoxProfile fprofile = new FirefoxProfile();
-			// Set Location to store files after downloading.
+			
 			fprofile.setPreference("browser.download.dir", Constant.PATH_DOWNLOAD_FILES);
 			fprofile.setPreference("browser.download.folderList", 2);
 			fprofile.setPreference("browser.helperApps.neverAsk.saveToDisk",
@@ -81,13 +85,22 @@ public class Utils {
 							+ "text/csv");
 			fprofile.setPreference("browser.download.manager.showWhenStarting", false);
 			fprofile.setPreference("pdfjs.disabled", true);
+	/** <----- **/
 
+	/** konfiguracja drivera PhantomJS ----> **/		
+//			dCaps = new DesiredCapabilities();
+//			dCaps.setJavascriptEnabled(true);
+//			dCaps.setCapability("phantomjs.binary.path", Constant.PATH_PHANTOMJS_EXE_FILE);
+//			driver = new PhantomJSDriver(dCaps);
+	/** <----- **/
+	
+	/** konfiguracja drivera webdriver ----> **/		
 			driver = new FirefoxDriver(fprofile);
 			driver.manage().window().setSize(Constant.BROWSER_RES);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Constant.DRIVER_IMPLICITLY_WAIT_SEC, TimeUnit.SECONDS);
-
-			// driver.get(Constant.URL);
+	/** <----- **/
+			//driver.get(Constant.URL);
 			Log.info("Driver został uruchomiony");
 			driver.get(envURL);
 		} catch (Exception e) {
@@ -103,7 +116,7 @@ public class Utils {
 			driver.manage().window().setSize(Constant.BROWSER_RES);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Constant.DRIVER_IMPLICITLY_WAIT_SEC, TimeUnit.SECONDS);
-			// driver.get(Constant.URL);
+			//driver.get(Constant.URL);
 			String URL = null;
 			switch (envSelect) { // 1-clientele DEV, 2-clientele VIRT
 			case 1:
