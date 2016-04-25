@@ -4,7 +4,6 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -18,7 +17,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
-//import org.openqa.selenium.phantomjs.PhantomJSDriver;
+//import org.openqa.selenium.phantomjs.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -29,7 +28,7 @@ public class Utils {
 
 	public static WebDriver driver = null;
 	private static String element = null;
-	//protected static DesiredCapabilities dCaps;
+	protected static DesiredCapabilities dCaps;
 
 	/***
 	 * Pobiera property ustawiane w pom.xml
@@ -66,7 +65,6 @@ public class Utils {
 
 	/***
 	 * Otwiera driver na środowisku ustawionym przez {@code selectEnvJenkins}
-	 * 
 	 * @param envURL
 	 * @return
 	 * @throws Exception
@@ -89,6 +87,10 @@ public class Utils {
 
 	/** konfiguracja drivera PhantomJS ----> **/		
 //			dCaps = new DesiredCapabilities();
+//			String[] phantomArgs = new  String[] {
+//				    "--webdriver-loglevel=NONE"
+//				};
+//			dCaps.setCapability(PhantomJSDriverService.PHANTOMJS_CLI_ARGS, phantomArgs);
 //			dCaps.setJavascriptEnabled(true);
 //			dCaps.setCapability("phantomjs.binary.path", Constant.PATH_PHANTOMJS_EXE_FILE);
 //			driver = new PhantomJSDriver(dCaps);
@@ -108,7 +110,6 @@ public class Utils {
 		}
 		return driver;
 	}
-
 
 	public static WebDriver OpenBrowser(int envSelect) throws Exception {
 		try {
@@ -217,7 +218,7 @@ public class Utils {
 	 * @param xpath - xpath elementu dla którego zostanie porównany tekst
 	 * @param text - spodziewany tekst
 	 */
-	public static void doesElementContainText(String xpath, String text) {
+	public static void doesElementContainText(String xpath, String text) {	//TO DO dodać wybór asercja czy weryfikacja
 		try {
 			element = driver.findElement(By.xpath(xpath)).getText();
 			Assert.assertEquals(text, element);
