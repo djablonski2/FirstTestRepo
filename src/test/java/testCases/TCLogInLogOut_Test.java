@@ -6,8 +6,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import appModules.LogOut_Action;
+import bsh.util.Util;
 import appModules.LogIn_Action;
 import pageObjects.BaseClass;
+import pageObjects.Home_Page;
 import utility.Log;
 import utility.Utils;
 
@@ -32,6 +34,8 @@ public class TCLogInLogOut_Test {
 			LogIn_Action.Execute();
 			Thread.sleep(2000);
 			Utils.takeScreenshot(sTestCaseName);
+			Utils.doesElementContainText("//td[@class='SectionHeaderBig']", "Witaj w systemie Clientele");
+			Utils.doesElementContainText(Home_Page.lnk_ProfilName(), "DJABLONSKI");
 			LogOut_Action.Execute();
 
 		} catch (Exception e) {
@@ -43,9 +47,7 @@ public class TCLogInLogOut_Test {
 
 	@AfterMethod
 	public void afterMethod() {
-		
 		Log.endTestCase(sTestCaseName);
-		
 		driver.close();
 	}
 }

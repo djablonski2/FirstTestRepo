@@ -1,27 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Zalogowano do Clientele]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19652" started-at="2016-04-21T10:08:05Z" finished-at="2016-04-21T10:08:25Z">
+  <suite name="Default suite" duration-ms="22679" started-at="2016-04-21T14:05:38Z" finished-at="2016-04-21T14:06:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19652" started-at="2016-04-21T10:08:05Z" finished-at="2016-04-21T10:08:25Z">
+    <test name="Default test" duration-ms="22679" started-at="2016-04-21T14:05:38Z" finished-at="2016-04-21T14:06:00Z">
       <class name="testCases.TCLogInLogOut_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="beforeMethod" is-config="true" duration-ms="8104" started-at="2016-04-21T12:08:05Z" finished-at="2016-04-21T12:08:13Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="beforeMethod" is-config="true" duration-ms="14332" started-at="2016-04-21T16:05:38Z" finished-at="2016-04-21T16:05:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="main" duration-ms="11507" started-at="2016-04-21T12:08:13Z" finished-at="2016-04-21T12:08:24Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="main" duration-ms="8291" started-at="2016-04-21T16:05:52Z" finished-at="2016-04-21T16:06:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
+Command duration or timeout: 8.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//legend[.='Logowanie']}
+Session ID: 4e0f4d06-85d9-4a5c-b96e-c28e2d1c367e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
+Command duration or timeout: 8.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+*** Element info: {Using=xpath, value=//legend[.='Logowanie']}
+Session ID: 4e0f4d06-85d9-4a5c-b96e-c28e2d1c367e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
+	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
+	at testCases.TCLogInLogOut_Test.main(TCLogInLogOut_Test.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DOMINI~1/AppData/Local/Temp/anonymous3545514556713480424webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DOMINI~1/AppData/Local/Temp/anonymous3545514556713480424webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
-            <line>
-              <![CDATA[Zalogowano do Clientele]]>
-            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@75591da2]" name="afterMethod" is-config="true" duration-ms="25" started-at="2016-04-21T12:08:24Z" finished-at="2016-04-21T12:08:25Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="afterMethod" is-config="true" duration-ms="31" started-at="2016-04-21T16:06:00Z" finished-at="2016-04-21T16:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

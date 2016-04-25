@@ -1,14 +1,13 @@
 package pageObjects;
-        import java.util.List;
-
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import utility.Log;
 import utility.Utils;
+
     public class Home_Page extends BaseClass{
             private static WebElement element = null;
            
@@ -49,7 +48,6 @@ import utility.Utils;
 			return element;
         }
 
-        
       //Obsługa zamykania komunikatów
     	public static void act_closeNotifications(){
     		List<WebElement> listNotif= driver.findElements(By.xpath("//button[.='Zamknij okno.']"));
@@ -60,13 +58,15 @@ import utility.Utils;
     				listNotif.get(i).click(); 
     			}	
     			Log.info("Zamknieto powiadomienia");
-    		}
+    		} else {
 //    		if (listNotif.size()>0) {
 //    			for(int i=1;i<=listNotif.size();i++) {
 //    				boolean Buttonstan = driver.findElement(By.xpath("//button[.='Zamknij okno.']")).isDisplayed();
 //    				driver.findElement(By.xpath("//button[.='Zamknij okno.']")).click(); 
 //    			}
     		Log.info("Brak powiadomień do zamknięcia");
+    		}
+    		
     	}
     	
         
