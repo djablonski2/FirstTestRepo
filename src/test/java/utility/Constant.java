@@ -14,9 +14,10 @@ public class Constant {
 		public static final String PATH_DOWNLOAD_FILES = "D:\\eclipse\\workspace\\ClientelePOFramework\\DownloadFiles\\";
 		public static final String PATH_PHANTOMJS_EXE_FILE = "D:\\Downloads\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe";
 		public static final int WAIT_FOR_ELEMENT_TO_BE_CLICKABLE_SEC = 10;
-		public static final int DRIVER_IMPLICITLY_WAIT_SEC = 8;
+		public static final int DRIVER_IMPLICITLY_WAIT_SEC = 12;
 		public static final String CALL_ID_CALENDAR_CHECK = "721583";
 		public static final String COST_PROJ_ID_XLS_CHECK = "118";
+		public static final String REALIZATION_ID_FAIL_REALIZATION = "33234";
 		
 		
 		//public static Dimension BROWSER_RES = new Dimension(1920, 1080);

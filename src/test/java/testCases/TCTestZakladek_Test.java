@@ -35,7 +35,7 @@ public class TCTestZakladek_Test {
 			LogOut_Action.Execute();
 
 		} catch (Exception e) {
-			Utils.takeScreenshot(sTestCaseName);
+			Utils.takeScreenshot(sTestCaseName+"_ERR");
 			Log.error(e.getMessage());
 			throw (e);
 		}

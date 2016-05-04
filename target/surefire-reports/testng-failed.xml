@@ -13,13 +13,20 @@
   </test> <!-- Test -->
   <test name="Test(failed)">
     <classes>
-      <class name="testCases.TCKolejki_WyszukiwanieCalli_Test">
+      <class name="testCases.TCLogInLogOut_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="main"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TCLogInLogOut_Test -->
+      <class name="testCases.TCVisibilityCalendarPBXCall_Test">
         <methods>
           <include name="main"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testCases.TCKolejki_WyszukiwanieCalli_Test -->
+      </class> <!-- testCases.TCVisibilityCalendarPBXCall_Test -->
       <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test">
         <methods>
           <include name="beforeMethod"/>
@@ -34,20 +41,13 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test -->
-      <class name="testCases.TCVisibilityCalendarPBXCall_Test">
+      <class name="testCases.TCKolejki_WyszukiwanieCalli_Test">
         <methods>
           <include name="main"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testCases.TCVisibilityCalendarPBXCall_Test -->
-      <class name="testCases.TCLogInLogOut_Test">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="main"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- testCases.TCLogInLogOut_Test -->
+      </class> <!-- testCases.TCKolejki_WyszukiwanieCalli_Test -->
       <class name="testCases.TCTestZakladek_Test">
         <methods>
           <include name="main"/>

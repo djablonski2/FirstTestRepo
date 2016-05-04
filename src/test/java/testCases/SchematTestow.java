@@ -25,7 +25,7 @@ public class SchematTestow {
 		sTestCaseName = this.toString();
 		sTestCaseName = Utils.getTestCaseName(this.toString());
 		Log.startTestCase(sTestCaseName);
-		driver = Utils.OpenBrowser(Utils.selectEnvJenkins()); //Utils.selectEnvJenkins()-pobranie środowiska z Jenkins, 1-clientele DEV, 2-clientele VIRT
+		driver = Utils.OpenBrowser(Utils.selectEnvJenkins()); //Utils.selectEnvJenkins()-get env variable from Jenkins, 1-AZURE, 2-PROD
 		new BaseClass(driver);
 	}
 	

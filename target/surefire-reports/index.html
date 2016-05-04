@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-SuiteAllTC">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -107,6 +107,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCVisibilityCalendarPBXCall_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCTestZakladek_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -117,17 +122,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCLogInLogOut_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCKolejki_WyszukiwanieCalli_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCVisibilityCalendarPBXCall_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCLogInLogOut_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-SuiteAllTC -->
@@ -145,7 +145,7 @@
           <div class="suite-SuiteAllTC-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TCKolejki_WyszukiwanieCalli_Test</span>
+              <span class="class-name">testCases.TCLogInLogOut_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -154,12 +154,12 @@
                   </a> <!-- main -->
                   <span class="method-name">main</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.11 seconds
+Command duration or timeout: 12.13 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 *** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 3991d2ae-6d8f-498f-8e03-c8d66dc2b1f7
+Session ID: e47a5160-b142-47bc-93c0-1a367ef22ec9
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -171,100 +171,14 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
 	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCKolejki_WyszukiwanieCalli_Test.main(TCKolejki_WyszukiwanieCalli_Test.java:34)
+	at testCases.TCLogInLogOut_Test.main(TCLogInLogOut_Test.java:34)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5694691317580171658webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous5694691317580171658webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteAllTC-class-failed -->
-          <div class="suite-SuiteAllTC-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TCCosting_ProjektCostingowy_ExportUslug_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="main">
-                  </a> <!-- main -->
-                  <span class="method-name">main</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.12 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 2edcd177-b4b0-474e-9468-11f3b686ef9d
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCCosting_ProjektCostingowy_ExportUslug_Test.main(TCCosting_ProjektCostingowy_ExportUslug_Test.java:38)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous4793440676858318222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous4793440676858318222webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-... Removed 37 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteAllTC-class-failed -->
-          <div class="suite-SuiteAllTC-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="main">
-                  </a> <!-- main -->
-                  <span class="method-name">main</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.05 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: ba8e206a-435a-45c5-a792-88e6a768a4ce
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test.main(TCCosting_WyszukiwanieProjektuCostingowego_Test.java:38)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous3366285837143622028webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous3366285837143622028webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous6307605745475407783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous6307605745475407783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -283,12 +197,12 @@ Driver info: driver.version: unknown
                   </a> <!-- main -->
                   <span class="method-name">main</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.10 seconds
+Command duration or timeout: 12.13 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 *** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: a6ef2ca0-2731-4b38-b085-b6371c35ce47
+Session ID: 752d2e3b-1b0c-4d64-8908-5015b9a1e3bf
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -304,10 +218,10 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous8851815977540499690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous8851815977540499690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5323047009317990377webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous5323047009317990377webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -317,7 +231,7 @@ Driver info: driver.version: unknown
           <div class="suite-SuiteAllTC-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TCLogInLogOut_Test</span>
+              <span class="class-name">testCases.TCCosting_ProjektCostingowy_ExportUslug_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -326,12 +240,12 @@ Driver info: driver.version: unknown
                   </a> <!-- main -->
                   <span class="method-name">main</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.11 seconds
+Command duration or timeout: 12.03 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 *** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 30ac6526-02db-4d0f-90c5-56c82273cf39
+Session ID: 599e8cc9-ad67-4f62-a30f-8c15a1022223
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -343,14 +257,100 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
 	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCLogInLogOut_Test.main(TCLogInLogOut_Test.java:34)
+	at testCases.TCCosting_ProjektCostingowy_ExportUslug_Test.main(TCCosting_ProjektCostingowy_ExportUslug_Test.java:38)
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous8833364503413728296webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous8833364503413728296webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous2449250246232457571webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous2449250246232457571webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-failed -->
+          <div class="suite-SuiteAllTC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
+Command duration or timeout: 12.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
+Session ID: a85cb9ac-0027-4778-a20e-3bc7303bdbad
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
+	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
+	at testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test.main(TCCosting_WyszukiwanieProjektuCostingowego_Test.java:38)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5837702759424621690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous5837702759424621690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-failed -->
+          <div class="suite-SuiteAllTC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TCKolejki_WyszukiwanieCalli_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
+Command duration or timeout: 12.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
+Session ID: dbffe691-f68d-48b4-a3a1-a30f7ceda8c2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
+	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
+	at testCases.TCKolejki_WyszukiwanieCalli_Test.main(TCKolejki_WyszukiwanieCalli_Test.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous8377498381145740408webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous8377498381145740408webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -369,12 +369,12 @@ Driver info: driver.version: unknown
                   </a> <!-- main -->
                   <span class="method-name">main</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 8.11 seconds
+Command duration or timeout: 12.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 *** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 7d8a1ad4-5dfd-4921-91c9-85062ae9255a
+Session ID: 6d1eb43a-cda7-4a80-908c-5e6e6844c545
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
@@ -390,10 +390,10 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.79.208&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous2105115345753163194webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous2105115345753163194webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous1052443381854512592webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous1052443381854512592webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -420,52 +420,6 @@ Driver info: driver.version: unknown
       &lt;class name=&quot;testCases.TCCosting_ProjektCostingowy_ExportUslug_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test name=&quot;Test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TCKolejki_WyszukiwanieCalli_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCKolejki_WyszukiwanieCalli_Test --&gt;
-      &lt;class name=&quot;testCases.TCCosting_ProjektCostingowy_ExportUslug_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCCosting_ProjektCostingowy_ExportUslug_Test --&gt;
-      &lt;class name=&quot;testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test --&gt;
-      &lt;class name=&quot;testCases.TCVisibilityCalendarPBXCall_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCVisibilityCalendarPBXCall_Test --&gt;
-      &lt;class name=&quot;testCases.TCLogInLogOut_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCLogInLogOut_Test --&gt;
-      &lt;class name=&quot;testCases.TCTestZakladek_Test&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;main&quot;/&gt;
-          &lt;include name=&quot;afterMethod&quot;/&gt;
-          &lt;include name=&quot;beforeMethod&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- testCases.TCTestZakladek_Test --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- SuiteAllTC --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -478,9 +432,6 @@ Driver info: driver.version: unknown
             <ul>
               <li>
                 <span class="test-name">Test (6 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Test(failed) (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -510,32 +461,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
 data.setCell(0, 2, 'testCases.TCLogInLogOut_Test')
-data.setCell(0, 3, 8264);
+data.setCell(0, 3, 12319);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'main')
-data.setCell(1, 2, 'testCases.TCVisibilityCalendarPBXCall_Test')
-data.setCell(1, 3, 8252);
+data.setCell(1, 2, 'testCases.TCKolejki_WyszukiwanieCalli_Test')
+data.setCell(1, 3, 12224);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'main')
-data.setCell(2, 2, 'testCases.TCCosting_ProjektCostingowy_ExportUslug_Test')
-data.setCell(2, 3, 8212);
+data.setCell(2, 2, 'testCases.TCVisibilityCalendarPBXCall_Test')
+data.setCell(2, 3, 12218);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'main')
-data.setCell(3, 2, 'testCases.TCKolejki_WyszukiwanieCalli_Test')
-data.setCell(3, 3, 8211);
+data.setCell(3, 2, 'testCases.TCCosting_ProjektCostingowy_ExportUslug_Test')
+data.setCell(3, 3, 12161);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'main')
 data.setCell(4, 2, 'testCases.TCTestZakladek_Test')
-data.setCell(4, 3, 8200);
+data.setCell(4, 3, 12156);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'main')
 data.setCell(5, 2, 'testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test')
-data.setCell(5, 3, 8128);
+data.setCell(5, 3, 12128);
 window.suiteTableData['SuiteAllTC']= { tableData: data, tableDiv: 'times-div-SuiteAllTC'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-SuiteAllTC">
               </div> <!-- times-div-SuiteAllTC -->
             </div> <!-- times-div -->
@@ -570,96 +521,96 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">10856 ms</span>
+                <span class="method-start">11293 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">19129 ms</span>
+                <span class="method-start">23612 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCTestZakladek_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">19181 ms</span>
+                <span class="method-start">23659 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">28252 ms</span>
+                <span class="method-start">39430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">36456 ms</span>
+                <span class="method-start">51589 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCVisibilityCalendarPBXCall_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">36536 ms</span>
+                <span class="method-start">51609 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">45262 ms</span>
+                <span class="method-start">66092 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">53516 ms</span>
+                <span class="method-start">78313 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCKolejki_WyszukiwanieCalli_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">53534 ms</span>
+                <span class="method-start">78335 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">66633 ms</span>
+                <span class="method-start">94775 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">74844 ms</span>
+                <span class="method-start">107003 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">74907 ms</span>
+                <span class="method-start">107041 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">83452 ms</span>
+                <span class="method-start">119805 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">91584 ms</span>
+                <span class="method-start">131933 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCCosting_ProjektCostingowy_ExportUslug_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">91609 ms</span>
+                <span class="method-start">131949 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">main</span>
-                <span class="method-start">100285 ms</span>
+                <span class="method-start">142073 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">108499 ms</span>
+                <span class="method-start">154252 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

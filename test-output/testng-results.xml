@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[Zalogowano do Clientele]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22679" started-at="2016-04-21T14:05:38Z" finished-at="2016-04-21T14:06:00Z">
+  <suite name="Default suite" duration-ms="52299" started-at="2016-05-02T13:22:00Z" finished-at="2016-05-02T13:22:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22679" started-at="2016-04-21T14:05:38Z" finished-at="2016-04-21T14:06:00Z">
-      <class name="testCases.TCLogInLogOut_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="beforeMethod" is-config="true" duration-ms="14332" started-at="2016-04-21T16:05:38Z" finished-at="2016-04-21T16:05:52Z">
+    <test name="Default test" duration-ms="52299" started-at="2016-05-02T13:22:00Z" finished-at="2016-05-02T13:22:52Z">
+      <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@32d463e5]" name="beforeMethod" is-config="true" duration-ms="10403" started-at="2016-05-02T15:22:00Z" finished-at="2016-05-02T15:22:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="main" duration-ms="8291" started-at="2016-04-21T16:05:52Z" finished-at="2016-04-21T16:06:00Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="main()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@32d463e5]" name="main" duration-ms="41850" started-at="2016-05-02T15:22:10Z" finished-at="2016-05-02T15:22:52Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
-Command duration or timeout: 8.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[Element is not clickable at point (520.816650390625, 7.6666717529296875). Other element would receive the click: <li></li>
+Command duration or timeout: 84 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
-*** Element info: {Using=xpath, value=//legend[.='Logowanie']}
-Session ID: 4e0f4d06-85d9-4a5c-b96e-c28e2d1c367e
+System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.154', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 84033106-68d3-4fb9-a0f6-f7ae7a65f773
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
-Command duration or timeout: 8.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.WebDriverException: Element is not clickable at point (520.816650390625, 7.6666717529296875). Other element would receive the click: <li></li>
+Command duration or timeout: 84 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
-*** Element info: {Using=xpath, value=//legend[.='Logowanie']}
-Session ID: 4e0f4d06-85d9-4a5c-b96e-c28e2d1c367e
+System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.154', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 84033106-68d3-4fb9-a0f6-f7ae7a65f773
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -41,13 +40,9 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCLogInLogOut_Test.main(TCLogInLogOut_Test.java:34)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at testCases.TCRealizacjaCallaBladRADIOCall_Test.main(TCRealizacjaCallaBladRADIOCall_Test.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -72,24 +67,20 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//legend[.='Logowanie']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'DESKTOP-HT9LOUA', ip: '192.168.10.189', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/DOMINI~1/AppData/Local/Temp/anonymous3545514556713480424webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/DOMINI~1/AppData/Local/Temp/anonymous3545514556713480424webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
+            <line>
+              <![CDATA[Zalogowano do Clientele]]>
+            </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@67bba966]" name="afterMethod" is-config="true" duration-ms="31" started-at="2016-04-21T16:06:00Z" finished-at="2016-04-21T16:06:00Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@32d463e5]" name="afterMethod" is-config="true" duration-ms="16" started-at="2016-05-02T15:22:52Z" finished-at="2016-05-02T15:22:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCLogInLogOut_Test -->
+      </class> <!-- testCases.TCRealizacjaCallaBladRADIOCall_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
