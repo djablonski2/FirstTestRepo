@@ -2,6 +2,7 @@ package testCases;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -52,10 +53,13 @@ public class TCCosting_ProjektCostingowy_ExportUslug_Test {
 			
 			Utils.takeScreenshot(sTestCaseName+ "_CostingProjDetails_"+Constant.COST_PROJ_ID_XLS_CHECK);
 			
+			//należy ukryć topMenu bo zasłania element który trzeba kliknąć
+			JavascriptExecutor js = ((JavascriptExecutor) driver);
+			js.executeScript("document.getElementById('topNav').style.display = 'none';");
+			Thread.sleep(2000);
 			CostingProjDetails_Page.btn_ExportToExcel().click();
 			Log.info("Przycisk Export To Excel został kliknięty");
-			Thread.sleep(5000);
-			
+			driver.navigate().refresh();
 			LogOut_Action.Execute();
 
 		} catch (Exception e) {

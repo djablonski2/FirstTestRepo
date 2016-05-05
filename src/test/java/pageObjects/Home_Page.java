@@ -152,7 +152,8 @@ import utility.Utils;
         
         public static WebElement lnk_topMenu_Zgloszenia() throws Exception{
             try{
-            	element = driver.findElement(By.xpath("//*[@id='FindMenu1_imbtCalls']"));
+            	element = driver.findElement(By.xpath("//a[.='Zgłoszenia']"));
+            	//element = driver.findElement(By.xpath("//*[@id='FindMenu1_imbtCalls']")); // było na realizacjach w WebForms'ach
             	Log.info("Link Zgłoszenia został znaleziony");
             }catch (Exception e){
             	Log.error("Link Zgłoszenia nie został znaleziony!");

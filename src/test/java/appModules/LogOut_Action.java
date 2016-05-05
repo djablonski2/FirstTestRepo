@@ -9,6 +9,7 @@ public class LogOut_Action {
 	public static void Execute() throws Exception {
 
 		Home_Page.lnk_LogOut().click();
+		Log.info("Kliknięto LogOut");
 		Thread.sleep(1000);
 		Utils.waitForElement(LogIn_Page.btn_LogIn());
 		Log.info("Wylogowano z Clientele");

@@ -64,7 +64,7 @@ import utility.Log;
 //        		else {
 //        			System.out.println("Element Radio Button nie jest widoczny");
 //        		};
-           		Log.error("Znaleziono radio button Węzeł GTS dla A-End");
+           		Log.info("Znaleziono radio button Węzeł GTS dla A-End");
         	}catch (Exception e){
            		Log.error("Radio button Węzeł GTS dla A-End nie zostało znalezione!!!");
            		throw(e);

@@ -1,7 +1,10 @@
 package testCases;
 
 import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -41,6 +44,7 @@ public class TCRealizacjaCallaBladRADIOCall_Test {
 	public void main() throws Exception {
 		try {
 			LogIn_Action.Execute();
+			
 			FindRealization_Action.Execute(Constant.REALIZATION_ID_FAIL_REALIZATION);
 			RealizationDetails_Page.tab_ZleceniaTechniczne().click();
 			
@@ -52,9 +56,12 @@ public class TCRealizacjaCallaBladRADIOCall_Test {
 			
 			RealizationDetails_Page.btn_tabZlecTech_dodajNoweZlecenie().click();
 			
-			Utils.waitForElement(CallDetails_Page.rbtn_adrInsUsl_AEnd_Wezel());
+			//należy ukryć topMenu bo zasłania element który trzeba kliknąć
+			JavascriptExecutor js = ((JavascriptExecutor) driver);
+			js.executeScript("document.getElementById('topNav').style.display = 'none';");
+
 			CallDetails_Page.rbtn_adrInsUsl_AEnd_Wezel().click();
-			Thread.sleep(1000);
+			
 			Utils.detectAlert();
 			CallDetails_Page.lst_adrInsUsl_AEnd("Bełchatów (Kwiatowa 1) - 6052");
 			CallDetails_Page.lst_adrInsUsl_BEnd("Białystok (TP Emitel Cieszyńska 3) - 9001");
@@ -66,10 +73,11 @@ public class TCRealizacjaCallaBladRADIOCall_Test {
 			CallDetails_Page.txt_daneTech_WspolGeog_Szer().sendKeys("00 00 00.0");
 			CallDetails_Page.txt_daneTech_WspolGeog_Dlug().sendKeys("00 00 00.0");
 
+			//należy ukryć topMenu bo zasłania element który trzeba kliknąć
+			js.executeScript("document.getElementById('topNav').style.display = 'none';");
+			Log.info(CallDetails_Page.legend_SzczegolyZlecenia().getText());
 			CallDetails_Page.btn_PostepyInstalacji_DoRealizacji().click();
 			
-//			FindCall_Action.CheckVisibilityCalendarOczekiwanyTermin();
-//			Utils.takeScreenshot(sTestCaseName);
 			LogOut_Action.Execute();
 
 		} catch (Exception e) {
