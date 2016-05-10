@@ -5,6 +5,7 @@
 		<classes>
 			<class name="testCases.TCLogInLogOut_Test" />
 			<class name="testCases.TCTestZakladek_Test" />
+			<class name="testCases.TCMojeOtwarteRealizacje_Test" />
 			<class name="testCases.TCVisibilityCalendarPBXCall_Test" />
 			<class name="testCases.TCKolejki_WyszukiwanieCalli_Test" />
 			<class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" />

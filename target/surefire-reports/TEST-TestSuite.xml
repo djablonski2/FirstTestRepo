@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="6" time="73.234" errors="0" skipped="0" tests="6" name="TestSuite">
+<testsuite failures="0" time="56.234" errors="0" skipped="0" tests="2" name="TestSuite">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="SeleniumClientele_v2_selectedTC"/>
@@ -19,14 +19,14 @@
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="java.runtime.version" value="1.7.0_79-b15"/>
-    <property name="suiteXmlFile" value="TS_AllTests.xml"/>
+    <property name="suiteXmlFile" value="TS_RealizacjeKolejki_Linki_StareNowe.xml"/>
     <property name="user.name" value="DESKTOP-HT9LOUA$"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="WF_RESOURCES" value="D:\oracle\ora92\WF\RES\WFus.RES"/>
     <property name="user.language" value="pl"/>
-    <property name="BUILD_DISPLAY_NAME" value="#119"/>
+    <property name="BUILD_DISPLAY_NAME" value="#161"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
     <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -38,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="119"/>
+    <property name="BUILD_ID" value="161"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -70,7 +70,7 @@
     <property name="POM_GROUPID" value="ClientelePOFramework"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\"/>
-    <property name="BUILD_TAG" value="jenkins-SeleniumClientele_v2_selectedTC-119"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumClientele_v2_selectedTC-161"/>
     <property name="JENKINS_SERVER_COOKIE" value="75eca5c40445d7c5"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -79,13 +79,13 @@
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN/bin;C:\Program Files\Java\jdk1.7.0_79/bin;C:\Program Files\Java\jdk1.7.0_79/bin;D:\oracle\ora92\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;;."/>
-    <property name="ChoiceTS" value="TS_AllTests.xml"/>
+    <property name="ChoiceTS" value="TS_RealizacjeKolejki_Linki_StareNowe.xml"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.56.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 54996"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.56.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 54262"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_79/bin;D:\oracle\ora92\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;"/>
     <property name="VS120COMNTOOLS" value="D:\Program Files\Microsoft Visual Studio 12.0\Common7\Tools\"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -101,7 +101,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumClientele_v2_selectedTC/119/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumClientele_v2_selectedTC/161/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -114,7 +114,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="119"/>
+    <property name="BUILD_NUMBER" value="161"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="envChoiceJenkins" value="DEV"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -131,383 +131,6 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\"/>
   </properties>
-  <testcase time="12.318" classname="testCases.TCLogInLogOut_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: e47a5160-b142-47bc-93c0-1a367ef22ec9
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: e47a5160-b142-47bc-93c0-1a367ef22ec9
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCLogInLogOut_Test.main(TCLogInLogOut_Test.java:34)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous6307605745475407783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous6307605745475407783webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:23:14 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:23:14 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:23:14 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:23:14 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:23:14 INFO  Log:13 - |||||||   test case:      TCLogInLogOut_Test
-2016-05-04 08:23:14 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:23:22 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:23:37 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:23:37 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: e47a5160-b142-47bc-93c0-1a367ef22ec9
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
-  <testcase time="12.159" classname="testCases.TCTestZakladek_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 6d1eb43a-cda7-4a80-908c-5e6e6844c545
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 6d1eb43a-cda7-4a80-908c-5e6e6844c545
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCTestZakladek_Test.main(TCTestZakladek_Test.java:33)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous1052443381854512592webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous1052443381854512592webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:23:37 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-04 08:23:37 INFO  Log:20 - |
-2016-05-04 08:23:37 INFO  Log:21 - |
-2016-05-04 08:23:37 INFO  Log:22 - |
-2016-05-04 08:23:37 INFO  Log:23 - |
-2016-05-04 08:23:37 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:23:37 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:23:37 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:23:37 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:23:37 INFO  Log:13 - |||||||   test case:      TCTestZakladek_Test
-2016-05-04 08:23:37 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:23:46 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:24:05 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:24:05 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 6d1eb43a-cda7-4a80-908c-5e6e6844c545
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
-  <testcase time="12.222" classname="testCases.TCVisibilityCalendarPBXCall_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 752d2e3b-1b0c-4d64-8908-5015b9a1e3bf
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 752d2e3b-1b0c-4d64-8908-5015b9a1e3bf
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCVisibilityCalendarPBXCall_Test.main(TCVisibilityCalendarPBXCall_Test.java:42)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5323047009317990377webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous5323047009317990377webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:24:05 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-04 08:24:05 INFO  Log:20 - |
-2016-05-04 08:24:05 INFO  Log:21 - |
-2016-05-04 08:24:05 INFO  Log:22 - |
-2016-05-04 08:24:05 INFO  Log:23 - |
-2016-05-04 08:24:05 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:24:05 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:24:05 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:24:05 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:24:05 INFO  Log:13 - |||||||   test case:      TCVisibilityCalendarPBXCall_Test
-2016-05-04 08:24:05 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:24:13 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:24:32 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:24:32 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.13 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 752d2e3b-1b0c-4d64-8908-5015b9a1e3bf
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
-  <testcase time="12.228" classname="testCases.TCKolejki_WyszukiwanieCalli_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.11 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: dbffe691-f68d-48b4-a3a1-a30f7ceda8c2
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.11 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: dbffe691-f68d-48b4-a3a1-a30f7ceda8c2
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCKolejki_WyszukiwanieCalli_Test.main(TCKolejki_WyszukiwanieCalli_Test.java:34)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous8377498381145740408webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous8377498381145740408webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:24:32 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-04 08:24:32 INFO  Log:20 - |
-2016-05-04 08:24:32 INFO  Log:21 - |
-2016-05-04 08:24:32 INFO  Log:22 - |
-2016-05-04 08:24:32 INFO  Log:23 - |
-2016-05-04 08:24:32 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:24:32 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:24:32 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:24:32 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:24:32 INFO  Log:13 - |||||||   test case:      TCKolejki_WyszukiwanieCalli_Test
-2016-05-04 08:24:32 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:24:46 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:25:00 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:25:00 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.11 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: dbffe691-f68d-48b4-a3a1-a30f7ceda8c2
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
-  <testcase time="12.127" classname="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: a85cb9ac-0027-4778-a20e-3bc7303bdbad
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: a85cb9ac-0027-4778-a20e-3bc7303bdbad
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test.main(TCCosting_WyszukiwanieProjektuCostingowego_Test.java:38)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous5837702759424621690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous5837702759424621690webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:25:00 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-04 08:25:00 INFO  Log:20 - |
-2016-05-04 08:25:00 INFO  Log:21 - |
-2016-05-04 08:25:00 INFO  Log:22 - |
-2016-05-04 08:25:00 INFO  Log:23 - |
-2016-05-04 08:25:00 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:25:00 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:25:00 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:25:00 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:25:00 INFO  Log:13 - |||||||   test case:      TCCosting_WyszukiwanieProjektuCostingowego_Test
-2016-05-04 08:25:00 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:25:11 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:25:25 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:25:25 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: a85cb9ac-0027-4778-a20e-3bc7303bdbad
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
-  <testcase time="12.18" classname="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 599e8cc9-ad67-4f62-a30f-8c15a1022223
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 599e8cc9-ad67-4f62-a30f-8c15a1022223
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.LogIn_Page.label_Logowanie(LogIn_Page.java:14)
-	at appModules.LogIn_Action.Execute(LogIn_Action.java:14)
-	at testCases.TCCosting_ProjektCostingowy_ExportUslug_Test.main(TCCosting_ProjektCostingowy_ExportUslug_Test.java:38)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous2449250246232457571webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous2449250246232457571webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-04 08:25:25 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-04 08:25:25 INFO  Log:20 - |
-2016-05-04 08:25:25 INFO  Log:21 - |
-2016-05-04 08:25:25 INFO  Log:22 - |
-2016-05-04 08:25:25 INFO  Log:23 - |
-2016-05-04 08:25:25 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-04 08:25:25 INFO  Log:10 - ****************************************************************************************
-2016-05-04 08:25:25 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-04 08:25:25 INFO  Log:12 - ****************************************************************************************
-2016-05-04 08:25:25 INFO  Log:13 - |||||||   test case:      TCCosting_ProjektCostingowy_ExportUslug_Test
-2016-05-04 08:25:25 INFO  Log:14 - ****************************************************************************************
-2016-05-04 08:25:33 INFO  Log:28 - Driver został uruchomiony
-2016-05-04 08:25:48 ERROR Log:34 - Prawdopodobnie nie pokazała się strona logowania!!!
-2016-05-04 08:25:48 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//legend[.=&apos;Logowanie&apos;]&quot;}
-Command duration or timeout: 12.03 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;10.208.75.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//legend[.=&apos;Logowanie&apos;]}
-Session ID: 599e8cc9-ad67-4f62-a30f-8c15a1022223
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=45.0.2}]
-</system-out>
-  </testcase>
+  <testcase time="23.409" classname="testCases.TCKolejkiLinkStareNowe_Test" name="main"/>
+  <testcase time="32.825" classname="testCases.TCRealizacjeLinkStareNowe_Test" name="main"/>
 </testsuite>

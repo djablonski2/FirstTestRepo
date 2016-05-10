@@ -21,10 +21,11 @@ import utility.Constant;
 import utility.Log;
 import utility.Utils;
 
+/***
+ * Test tworzący nowy call RADIO w wybranym projekcie i sprawdzajacy czy nie pojawia się błąd przy jego realizacji.
+ * Redmine #760 - http://redmine.nexio.pl/issues/760
+ */
 public class TCRealizacjaCallaBladRADIOCall_Test {
-	/***
-	 * Test tworzący nowy call RADIO w wybranym projekcie i sprawdzajacy czy nie pojawia się błąd przy jego realizacji.
-	 */
 
 	public WebDriver driver;
 	private String sTestCaseName;
@@ -72,7 +73,7 @@ public class TCRealizacjaCallaBladRADIOCall_Test {
 			CallDetails_Page.lst_daneTech_Port("G703");
 			CallDetails_Page.txt_daneTech_WspolGeog_Szer().sendKeys("00 00 00.0");
 			CallDetails_Page.txt_daneTech_WspolGeog_Dlug().sendKeys("00 00 00.0");
-
+			Utils.takeScreenshot(sTestCaseName+"_uzup_Call_RL");
 			//należy ukryć topMenu bo zasłania element który trzeba kliknąć
 			js.executeScript("document.getElementById('topNav').style.display = 'none';");
 			Log.info(CallDetails_Page.legend_SzczegolyZlecenia().getText());

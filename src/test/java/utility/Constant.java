@@ -16,12 +16,12 @@ public class Constant {
 		public static final int WAIT_FOR_ELEMENT_TO_BE_CLICKABLE_SEC = 10;
 		public static final int DRIVER_IMPLICITLY_WAIT_SEC = 12;
 		public static final String CALL_ID_CALENDAR_CHECK = "721583";
-		public static final String COST_PROJ_ID_XLS_CHECK = "118";
+		public static final String COST_PROJ_ID_XLS_CHECK = "117";
 		public static final String REALIZATION_ID_FAIL_REALIZATION = "33234";
 		
 		
-		//public static Dimension BROWSER_RES = new Dimension(1920, 1080);
-		public static Dimension BROWSER_RES = new Dimension(1366, 768);
+		public static Dimension BROWSER_RES = new Dimension(1920, 1080);
+		//public static Dimension BROWSER_RES = new Dimension(1366, 768);
 		
 		//Test Data Sheet Columns
 		public static final int COL_TEST_CASE_NAME = 0;	

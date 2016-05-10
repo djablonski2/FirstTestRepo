@@ -97,4 +97,26 @@ public class QueuesSearch_Page extends BaseClass {
 		return element;
 	}
 	
+	public static WebElement lnk_StareKolejki() throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//a[.='Stare kolejki']"));
+			Log.info("Link Stare kolejki został znaleziony");
+		} catch (Exception e) {
+			Log.error("Nie znaleziono linku Stare Kolejki!!!");
+			throw (e);
+		}
+		return element;
+	}
+	
+	public static WebElement lnk_NoweKolejki() throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//a[.='Nowe kolejki']"));
+			Log.info("Link Nowe kolejki został znaleziony");
+		} catch (Exception e) {
+			Log.error("Nie znaleziono linku Nowe Kolejki!!!");
+			throw (e);
+		}
+		return element;
+	}
+	
 }

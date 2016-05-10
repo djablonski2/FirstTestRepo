@@ -1,9 +1,11 @@
 appModules\FindCall_Action.class
 pageObjects\LogIn_Page.class
 testCases\TCCosting_ProjektCostingowy_ExportUslug_Test.class
+testCases\TCKolejkiLinkStareNowe_Test.class
 pageObjects\RealizationDetails_Page.class
 pageObjects\CallDetails_Page.class
 appModules\FindRealization_Action.class
+testCases\TCRealizacjeLinkStareNowe_Test.class
 utility\Listener.class
 testCases\TCCosting_WyszukiwanieProjektuCostingowego_Test.class
 testCases\TCKolejki_WyszukiwanieCalli_Test.class
@@ -16,6 +18,7 @@ utility\Listeners.class
 appModules\CheckOut_Action.class
 pageObjects\Home_Page.class
 pageObjects\RealiztionSearch_Page.class
+testCases\TCMojeOtwarteRealizacje_Test.class
 testCases\TCTestZakladek_Test.class
 pageObjects\BaseClass.class
 testCases\TCRealizacjaCallaBladRADIOCall_Test.class

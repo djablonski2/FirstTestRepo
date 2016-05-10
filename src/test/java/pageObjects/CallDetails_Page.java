@@ -106,7 +106,7 @@ import utility.Log;
         public static WebElement txt_daneTech_Bandwidth() throws Exception{
         	try{
 	            element = driver.findElement(By.id("_ctl1__ctl0_Link1_txtBandWidth"));
-           		Log.error("Znaleziono pole Przepustowość");
+           		Log.info("Znaleziono pole Przepustowość");
         	}catch (Exception e){
            		Log.error("Pole przepustowość nie zostało znalezione!!!");
            		throw(e);
@@ -138,7 +138,7 @@ import utility.Log;
         public static WebElement txt_daneTech_WspolGeog_Szer() throws Exception{
         	try{
 	            element = driver.findElement(By.id("_ctl1__ctl0_Link1__ctl0_txtWspolGeog_Szer"));
-           		Log.error("Znaleziono pole Współrzędne geograficzne szerokość");
+           		Log.info("Znaleziono pole Współrzędne geograficzne szerokość");
         	}catch (Exception e){
            		Log.error("Pole Współrzędne geograficzne szerokość nie zostało znalezione!!!");
            		throw(e);
@@ -148,7 +148,7 @@ import utility.Log;
         public static WebElement txt_daneTech_WspolGeog_Dlug() throws Exception{
         	try{
 	            element = driver.findElement(By.id("_ctl1__ctl0_Link1__ctl0_txtWspolGeog_Dlug"));
-           		Log.error("Znaleziono pole Współrzędne geograficzne długość");
+           		Log.info("Znaleziono pole Współrzędne geograficzne długość");
         	}catch (Exception e){
            		Log.error("Pole Współrzędne geograficzne długość nie zostało znalezione!!!");
            		throw(e);
@@ -158,7 +158,7 @@ import utility.Log;
         public static WebElement btn_PostepyInstalacji_DoRealizacji() throws Exception{
         	try{
 	            element = driver.findElement(By.xpath("//input[@value='Do realizacji']"));
-           		Log.error("Znaleziono przycisk Do Realizacji");
+           		Log.info("Znaleziono przycisk Do Realizacji");
         	}catch (Exception e){
            		Log.error("Przycisk Do Realizacji nie został znaleziony!!!");
            		throw(e);

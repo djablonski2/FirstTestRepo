@@ -150,6 +150,17 @@ import utility.Utils;
            	return element;
         }
         
+        public static WebElement lnk_topMenu_Realizacje_MojeOtwarte() throws Exception{
+            try{
+            	element = driver.findElement(By.xpath("//a[.='Moje otwarte']"));
+            	Log.info("Link Moje otwarte został znaleziony");
+            }catch (Exception e){
+            	Log.error("Link Moje otwarte nie został znaleziony!");
+           		throw(e);
+           		}
+           	return element;
+        }
+        
         public static WebElement lnk_topMenu_Zgloszenia() throws Exception{
             try{
             	element = driver.findElement(By.xpath("//a[.='Zgłoszenia']"));

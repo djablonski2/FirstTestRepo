@@ -26,11 +26,10 @@ import utility.Utils;
             Log.info("Kliknięcie przycisku logowania");
             
             Utils.waitForElement(Home_Page.lnk_ProfilName());
-            
-            Home_Page.act_closeNotifications();
-            	
-            //Home_Page.dialog_Window_Notification().click();
-            
+         
+            /*Jeśli niepotrzebne jest wykywanie komunikatów to najlepiej wyłączyć wykrywanie - metoda logowania działa szybciej*/
+           // Home_Page.act_closeNotifications();
+
             Reporter.log("Zalogowano do Clientele");
             Log.info("Zalogowano do Clientele");
             

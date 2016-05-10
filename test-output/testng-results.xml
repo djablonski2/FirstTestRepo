@@ -5,27 +5,27 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54346" started-at="2016-05-05T13:11:55Z" finished-at="2016-05-05T13:12:50Z">
+  <suite name="Default suite" duration-ms="31255" started-at="2016-05-10T13:22:48Z" finished-at="2016-05-10T13:23:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54346" started-at="2016-05-05T13:11:55Z" finished-at="2016-05-05T13:12:50Z">
-      <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@5e9815f3]" name="beforeMethod" is-config="true" duration-ms="7929" started-at="2016-05-05T15:11:55Z" finished-at="2016-05-05T15:12:03Z">
+    <test name="Default test" duration-ms="31255" started-at="2016-05-10T13:22:48Z" finished-at="2016-05-10T13:23:19Z">
+      <class name="testCases.TCRealizacjeLinkStareNowe_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="beforeMethod" is-config="true" duration-ms="8056" started-at="2016-05-10T15:22:48Z" finished-at="2016-05-10T15:22:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@5e9815f3]" name="main" duration-ms="46379" started-at="2016-05-05T15:12:03Z" finished-at="2016-05-05T15:12:50Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="main" duration-ms="23162" started-at="2016-05-10T15:22:56Z" finished-at="2016-05-10T15:23:19Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@5e9815f3]" name="afterMethod" is-config="true" duration-ms="20" started-at="2016-05-05T15:12:50Z" finished-at="2016-05-05T15:12:50Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="afterMethod" is-config="true" duration-ms="21" started-at="2016-05-10T15:23:19Z" finished-at="2016-05-10T15:23:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCCosting_ProjektCostingowy_ExportUslug_Test -->
+      </class> <!-- testCases.TCRealizacjeLinkStareNowe_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

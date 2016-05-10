@@ -57,5 +57,25 @@ public class RealiztionSearch_Page extends BaseClass {
 		return element;
 	}
 	
+	public static WebElement lnk_StareRealizacje() throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//a[.='Stare realizacje']"));
+			Log.info("Link Stare realizacje został znaleziony");
+		} catch (Exception e) {
+			Log.error("Nie znaleziono linku Stare realizacje!!!");
+			throw (e);
+		}
+		return element;
+	}
 	
+	public static WebElement lnk_NoweRealizacje() throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//a[.='Nowe realizacje']"));
+			Log.info("Link Nowe realizacje został znaleziony");
+		} catch (Exception e) {
+			Log.error("Nie znaleziono linku Nowe realizacje!!!");
+			throw (e);
+		}
+		return element;
+	}
 }
