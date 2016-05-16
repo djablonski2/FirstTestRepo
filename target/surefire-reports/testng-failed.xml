@@ -3,8 +3,81 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SuiteAllTC]">
   <test name="Test">
     <classes>
+      <class name="testCases.TCLogInLogOut_Test"/>
+      <class name="testCases.TCTestZakladek_Test"/>
+      <class name="testCases.TCMojeOtwarteRealizacje_Test"/>
+      <class name="testCases.TCVisibilityCalendarPBXCall_Test"/>
+      <class name="testCases.TCKolejki_WyszukiwanieCalli_Test"/>
+      <class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test"/>
+      <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test"/>
+      <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test"/>
       <class name="testCases.TCKolejkiLinkStareNowe_Test"/>
       <class name="testCases.TCRealizacjeLinkStareNowe_Test"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TCCosting_ProjektCostingowy_ExportUslug_Test -->
+      <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- testCases.TCRealizacjaCallaBladRADIOCall_Test -->
+      <class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test -->
+      <class name="testCases.TCRealizacjeLinkStareNowe_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TCRealizacjeLinkStareNowe_Test -->
+      <class name="testCases.TCKolejkiLinkStareNowe_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TCKolejkiLinkStareNowe_Test -->
+      <class name="testCases.TCMojeOtwarteRealizacje_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.TCMojeOtwarteRealizacje_Test -->
+      <class name="testCases.TCVisibilityCalendarPBXCall_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.TCVisibilityCalendarPBXCall_Test -->
+      <class name="testCases.TCTestZakladek_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.TCTestZakladek_Test -->
+      <class name="testCases.TCLogInLogOut_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TCLogInLogOut_Test -->
+      <class name="testCases.TCKolejki_WyszukiwanieCalli_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.TCKolejki_WyszukiwanieCalli_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [SuiteAllTC] -->

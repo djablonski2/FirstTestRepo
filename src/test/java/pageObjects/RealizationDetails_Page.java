@@ -73,6 +73,12 @@ public class RealizationDetails_Page extends BaseClass {
 		return element;
 	}
 	
+	/***
+	 * Metoda zaznaczająca usługę na liście usług  
+	 * @param nrUslugiNaLiscie - kolejny numer usługi którą chcemy wybrać, gdzie 0 - Select All
+	 * @return
+	 * @throws Exception
+	 */
 	public static WebElement opt_lst_tabZlecTech_wybierzUsluge(Integer nrUslugiNaLiscie) throws Exception {
 		try {
 			element = driver.findElement(By.xpath("//div[@id='checks']/span[2]/label["+nrUslugiNaLiscie+"]"));

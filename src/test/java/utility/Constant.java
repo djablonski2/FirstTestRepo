@@ -17,7 +17,7 @@ public class Constant {
 		public static final int DRIVER_IMPLICITLY_WAIT_SEC = 12;
 		public static final String CALL_ID_CALENDAR_CHECK = "721583";
 		public static final String COST_PROJ_ID_XLS_CHECK = "117";
-		public static final String REALIZATION_ID_FAIL_REALIZATION = "33234";
+		public static final String REALIZATION_ID = "33234";
 		
 		
 		public static Dimension BROWSER_RES = new Dimension(1920, 1080);

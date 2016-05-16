@@ -5,27 +5,27 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31255" started-at="2016-05-10T13:22:48Z" finished-at="2016-05-10T13:23:19Z">
+  <suite name="Default suite" duration-ms="43054" started-at="2016-05-16T12:15:41Z" finished-at="2016-05-16T12:16:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31255" started-at="2016-05-10T13:22:48Z" finished-at="2016-05-10T13:23:19Z">
-      <class name="testCases.TCRealizacjeLinkStareNowe_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="beforeMethod" is-config="true" duration-ms="8056" started-at="2016-05-10T15:22:48Z" finished-at="2016-05-10T15:22:56Z">
+    <test name="Default test" duration-ms="43054" started-at="2016-05-16T12:15:41Z" finished-at="2016-05-16T12:16:24Z">
+      <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="beforeMethod" is-config="true" duration-ms="7676" started-at="2016-05-16T14:15:41Z" finished-at="2016-05-16T14:15:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="main" duration-ms="23162" started-at="2016-05-10T15:22:56Z" finished-at="2016-05-10T15:23:19Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="main" duration-ms="35343" started-at="2016-05-16T14:15:48Z" finished-at="2016-05-16T14:16:24Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@67bba966]" name="afterMethod" is-config="true" duration-ms="21" started-at="2016-05-10T15:23:19Z" finished-at="2016-05-10T15:23:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="afterMethod" is-config="true" duration-ms="20" started-at="2016-05-16T14:16:24Z" finished-at="2016-05-16T14:16:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCRealizacjeLinkStareNowe_Test -->
+      </class> <!-- testCases.TCRealizacjaCallaBladRADIOCall_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -99,7 +99,7 @@ public class Utils {
 	/** konfiguracja drivera webdriver ----> **/		
 			driver = new FirefoxDriver(fprofile);
 			driver.manage().window().setSize(Constant.BROWSER_RES);
-			//driver.manage().window().maximize(); //dostosowuje do ekranu naszyny na której jest uruchamiane
+			driver.manage().window().maximize(); //dostosowuje do ekranu naszyny na której jest uruchamiane
 			driver.manage().timeouts().implicitlyWait(Constant.DRIVER_IMPLICITLY_WAIT_SEC, TimeUnit.SECONDS);
 	/** <----- **/
 			//driver.get(Constant.URL);

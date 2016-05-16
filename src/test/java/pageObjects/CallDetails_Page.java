@@ -71,6 +71,19 @@ import utility.Log;
            		}
            	return element;
             }
+        
+        public static WebElement lst_Wykonawca(String kolejka) throws Exception{
+        	try{
+    			Select dropdown = new Select(driver.findElement(By.id("_ctl1__ctl0_ddlForwardTo")));
+    			dropdown.selectByValue(kolejka);
+    			Log.info("Kolejka wykonawcy zlecenia została wybrana");
+        	}catch (Exception e){
+    			Log.error("Nie udało się wybrać kolejki wykonawcy zlecenia!!!");
+           		throw(e);
+           		}
+           	return element;
+            }
+        
         public static WebElement lst_adrInsUsl_AEnd(String wezelA) throws Exception{
         	try{
     			Select dropdown = new Select(driver.findElement(By.id("_ctl1__ctl0_Link1_ddlAendNode")));
@@ -82,6 +95,7 @@ import utility.Log;
            		}
            	return element;
             }
+        
         public static WebElement rbtn_adrInsUsl_BEnd_Wezel() throws Exception{
         	try{
 	            element = driver.findElement(By.xpath("//input[@value='rbtnBGTSNode']"));
@@ -113,6 +127,19 @@ import utility.Log;
            		}
            	return element;
             }
+        
+        public static WebElement txt_dodatkoweInfoOPrzebieguLacza() throws Exception{
+        	try{
+        		element = driver.findElement(By.xpath("//textarea[@id='_ctl1__ctl0_Link1_txtAdditionalInfo']"));
+	            //element = driver.findElement(By.id("_ctl1:_ctl0:Link1:txtAdditionalInfo"));
+           		Log.info("Znaleziono pole Dodatkowe informacje o przebiegu łącza");
+        	}catch (Exception e){
+           		Log.error("Pole Dodatkowe informacje o przebiegu łącza nie zostało znalezione!!!");
+           		throw(e);
+           		}
+           	return element;
+            }
+        
         public static WebElement lst_daneTech_RLType(String rlType) throws Exception{
         	try{
     			Select dropdown = new Select(driver.findElement(By.id("_ctl1__ctl0_Link1__ctl0_Link_RL_Types")));

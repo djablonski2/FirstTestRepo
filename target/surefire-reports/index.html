@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-SuiteAllTC">
-              <span class="suite-name border-passed">SuiteAllTC</span>
+              <span class="suite-name border-failed">SuiteAllTC</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-SuiteAllTC">
-                    <span>D:\eclipse\workspace\ClientelePOFramework\TS_RealizacjeKolejki_Linki_StareNowe.xml</span>
+                    <span>D:\eclipse\workspace\ClientelePOFramework\TS_AllTests.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteAllTC" class="hide-methods failed suite-SuiteAllTC"> (hide)</a> <!-- hide-methods failed suite-SuiteAllTC -->
+                      <a href="#" panel-name="suite-SuiteAllTC" class="show-methods failed suite-SuiteAllTC"> (show)</a> <!-- show-methods failed suite-SuiteAllTC -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteAllTC">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCRealizacjaCallaBladRADIOCall_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteAllTC -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,47 @@
                     <div class="method-list-content passed suite-SuiteAllTC">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCRealizacjeLinkStareNowe_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCVisibilityCalendarPBXCall_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCTestZakladek_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCKolejkiLinkStareNowe_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCLogInLogOut_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCRealizacjeLinkStareNowe_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCMojeOtwarteRealizacje_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTC" title="testCases.TCKolejki_WyszukiwanieCalli_Test" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SuiteAllTC -->
@@ -122,6 +171,79 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SuiteAllTC" class="panel SuiteAllTC">
+          <div class="suite-SuiteAllTC-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TCRealizacjaCallaBladRADIOCall_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
+Command duration or timeout: 12.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=//span[contains(@class,&apos;glyphicon-user&apos;)]}
+Session ID: c6740024-c03d-4c0d-aafd-7c366221ad20
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0.1}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pageObjects.Home_Page.lnk_LogOut(Home_Page.java:99)
+	at appModules.LogOut_Action.Execute(LogOut_Action.java:11)
+	at testCases.TCRealizacjaCallaBladRADIOCall_Test.main(TCRealizacjaCallaBladRADIOCall_Test.java:82)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous6094901809507385564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous6094901809507385564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-failed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCCosting_ProjektCostingowy_ExportUslug_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
           <div class="suite-SuiteAllTC-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -152,10 +274,85 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCMojeOtwarteRealizacje_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCVisibilityCalendarPBXCall_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCTestZakladek_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCLogInLogOut_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
+          <div class="suite-SuiteAllTC-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TCKolejki_WyszukiwanieCalli_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTC-class-passed -->
         </div> <!-- panel SuiteAllTC -->
         <div panel-name="test-xml-SuiteAllTC" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\eclipse\workspace\ClientelePOFramework\TS_RealizacjeKolejki_Linki_StareNowe.xml</span>
+            <span class="header-content">D:\eclipse\workspace\ClientelePOFramework\TS_AllTests.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -164,6 +361,14 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;SuiteAllTC&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.TCLogInLogOut_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCTestZakladek_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCMojeOtwarteRealizacje_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCVisibilityCalendarPBXCall_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCKolejki_WyszukiwanieCalli_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCCosting_ProjektCostingowy_ExportUslug_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.TCRealizacjaCallaBladRADIOCall_Test&quot;/&gt;
       &lt;class name=&quot;testCases.TCKolejkiLinkStareNowe_Test&quot;/&gt;
       &lt;class name=&quot;testCases.TCRealizacjeLinkStareNowe_Test&quot;/&gt;
     &lt;/classes&gt;
@@ -179,7 +384,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,20 +410,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
-data.setCell(0, 2, 'testCases.TCRealizacjeLinkStareNowe_Test')
-data.setCell(0, 3, 32824);
+data.setCell(0, 2, 'testCases.TCTestZakladek_Test')
+data.setCell(0, 3, 50785);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'main')
-data.setCell(1, 2, 'testCases.TCKolejkiLinkStareNowe_Test')
-data.setCell(1, 3, 23410);
+data.setCell(1, 2, 'testCases.TCKolejki_WyszukiwanieCalli_Test')
+data.setCell(1, 3, 46350);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'main')
+data.setCell(2, 2, 'testCases.TCRealizacjaCallaBladRADIOCall_Test')
+data.setCell(2, 3, 36844);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'main')
+data.setCell(3, 2, 'testCases.TCCosting_ProjektCostingowy_ExportUslug_Test')
+data.setCell(3, 3, 34027);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'main')
+data.setCell(4, 2, 'testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test')
+data.setCell(4, 3, 27516);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'main')
+data.setCell(5, 2, 'testCases.TCRealizacjeLinkStareNowe_Test')
+data.setCell(5, 3, 22716);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'main')
+data.setCell(6, 2, 'testCases.TCKolejkiLinkStareNowe_Test')
+data.setCell(6, 3, 22711);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'main')
+data.setCell(7, 2, 'testCases.TCMojeOtwarteRealizacje_Test')
+data.setCell(7, 3, 18467);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'main')
+data.setCell(8, 2, 'testCases.TCVisibilityCalendarPBXCall_Test')
+data.setCell(8, 3, 11342);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'main')
+data.setCell(9, 2, 'testCases.TCLogInLogOut_Test')
+data.setCell(9, 3, 8466);
 window.suiteTableData['SuiteAllTC']= { tableData: data, tableDiv: 'times-div-SuiteAllTC'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-SuiteAllTC">
               </div> <!-- times-div-SuiteAllTC -->
             </div> <!-- times-div -->
@@ -229,6 +466,54 @@ return data;
             <span class="header-content">Reporter output for SuiteAllTC</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">main</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Zalogowano do Clientele</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">main</span>
               <div class="reporter-method-output-div">
@@ -256,33 +541,155 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TCKolejkiLinkStareNowe_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TCLogInLogOut_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">main</span>
-                <span class="method-start">7934 ms</span>
+                <span class="method-start">8758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">31345 ms</span>
+                <span class="method-start">17224 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCTestZakladek_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">17243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">25108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">75893 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCMojeOtwarteRealizacje_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">75911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">83974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">102441 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCVisibilityCalendarPBXCall_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">102459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">109579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">120922 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCKolejki_WyszukiwanieCalli_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">120950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">128906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">175256 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">175280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">183133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">210649 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCCosting_ProjektCostingowy_ExportUslug_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">210676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">219174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">253202 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCRealizacjaCallaBladRADIOCall_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">253219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">main</span>
+                <span class="method-start">260837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">297686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TCKolejkiLinkStareNowe_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">297714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">main</span>
+                <span class="method-start">305809 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">328520 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TCRealizacjeLinkStareNowe_Test</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">31396 ms</span>
+                <span class="method-start">328540 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">main</span>
-                <span class="method-start">39085 ms</span>
+                <span class="method-start">335462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">71910 ms</span>
+                <span class="method-start">358178 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
