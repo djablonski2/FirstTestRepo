@@ -5,27 +5,27 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43054" started-at="2016-05-16T12:15:41Z" finished-at="2016-05-16T12:16:24Z">
+  <suite name="Default suite" duration-ms="78135" started-at="2016-05-23T10:34:02Z" finished-at="2016-05-23T10:35:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43054" started-at="2016-05-16T12:15:41Z" finished-at="2016-05-16T12:16:24Z">
-      <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="beforeMethod" is-config="true" duration-ms="7676" started-at="2016-05-16T14:15:41Z" finished-at="2016-05-16T14:15:48Z">
+    <test name="Default test" duration-ms="78135" started-at="2016-05-23T10:34:02Z" finished-at="2016-05-23T10:35:20Z">
+      <class name="testCases.TCProcessingCall_ZUI_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="beforeMethod" is-config="true" duration-ms="8184" started-at="2016-05-23T12:34:02Z" finished-at="2016-05-23T12:34:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="main" duration-ms="35343" started-at="2016-05-16T14:15:48Z" finished-at="2016-05-16T14:16:24Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="main" duration-ms="69912" started-at="2016-05-23T12:34:10Z" finished-at="2016-05-23T12:35:20Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@49cd21c7]" name="afterMethod" is-config="true" duration-ms="20" started-at="2016-05-16T14:16:24Z" finished-at="2016-05-16T14:16:24Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="afterMethod" is-config="true" duration-ms="23" started-at="2016-05-23T12:35:20Z" finished-at="2016-05-23T12:35:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCRealizacjaCallaBladRADIOCall_Test -->
+      </class> <!-- testCases.TCProcessingCall_ZUI_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

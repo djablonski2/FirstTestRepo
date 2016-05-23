@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="279.239" errors="0" skipped="0" tests="10" name="TestSuite">
+<testsuite failures="0" time="288.969" errors="0" skipped="0" tests="10" name="TestSuite">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="SeleniumClientele_v2_selectedTC"/>
@@ -11,7 +11,7 @@
     <property name="POM_ARTIFACTID" value="ClientelePOFramework"/>
     <property name="os.name" value="Windows 8.1"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -26,7 +26,7 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="WF_RESOURCES" value="D:\oracle\ora92\WF\RES\WFus.RES"/>
     <property name="user.language" value="pl"/>
-    <property name="BUILD_DISPLAY_NAME" value="#168"/>
+    <property name="BUILD_DISPLAY_NAME" value="#175"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
     <property name="VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -38,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="168"/>
+    <property name="BUILD_ID" value="175"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -70,7 +70,7 @@
     <property name="POM_GROUPID" value="ClientelePOFramework"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\"/>
-    <property name="BUILD_TAG" value="jenkins-SeleniumClientele_v2_selectedTC-168"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumClientele_v2_selectedTC-175"/>
     <property name="JENKINS_SERVER_COOKIE" value="75eca5c40445d7c5"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -85,7 +85,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.56.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 59797"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.56.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 63158"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_79/bin;D:\oracle\ora92\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;"/>
     <property name="VS120COMNTOOLS" value="D:\Program Files\Microsoft Visual Studio 12.0\Common7\Tools\"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -101,7 +101,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumClientele_v2_selectedTC/168/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumClientele_v2_selectedTC/175/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -114,7 +114,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="168"/>
+    <property name="BUILD_NUMBER" value="175"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="envChoiceJenkins" value="DEV"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -131,112 +131,14 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\"/>
   </properties>
-  <testcase time="8.464" classname="testCases.TCLogInLogOut_Test" name="main"/>
-  <testcase time="50.784" classname="testCases.TCTestZakladek_Test" name="main"/>
-  <testcase time="18.466" classname="testCases.TCMojeOtwarteRealizacje_Test" name="main"/>
-  <testcase time="11.342" classname="testCases.TCVisibilityCalendarPBXCall_Test" name="main"/>
-  <testcase time="46.35" classname="testCases.TCKolejki_WyszukiwanieCalli_Test" name="main"/>
-  <testcase time="27.519" classname="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" name="main"/>
-  <testcase time="34.028" classname="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test" name="main"/>
-  <testcase time="36.858" classname="testCases.TCRealizacjaCallaBladRADIOCall_Test" name="main">
-    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//span[contains(@class,&apos;glyphicon-user&apos;)]}
-Session ID: c6740024-c03d-4c0d-aafd-7c366221ad20
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0.1}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//span[contains(@class,&apos;glyphicon-user&apos;)]}
-Session ID: c6740024-c03d-4c0d-aafd-7c366221ad20
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0.1}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at pageObjects.Home_Page.lnk_LogOut(Home_Page.java:99)
-	at appModules.LogOut_Action.Execute(LogOut_Action.java:11)
-	at testCases.TCRealizacjaCallaBladRADIOCall_Test.main(TCRealizacjaCallaBladRADIOCall_Test.java:82)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous6094901809507385564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous6094901809507385564webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
-</failure>
-    <system-out>2016-05-13 14:34:56 INFO  Log:19 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
-2016-05-13 14:34:56 INFO  Log:20 - |
-2016-05-13 14:34:56 INFO  Log:21 - |
-2016-05-13 14:34:56 INFO  Log:22 - |
-2016-05-13 14:34:56 INFO  Log:23 - |
-2016-05-13 14:34:56 INFO  Log:9 - ________________________________________________________________________________________
-2016-05-13 14:34:56 INFO  Log:10 - ****************************************************************************************
-2016-05-13 14:34:56 INFO  Log:11 - |||||||   środowisko:      http://clnet-tst/
-2016-05-13 14:34:56 INFO  Log:12 - ****************************************************************************************
-2016-05-13 14:34:56 INFO  Log:13 - |||||||   test case:      TCRealizacjaCallaBladRADIOCall_Test
-2016-05-13 14:34:56 INFO  Log:14 - ****************************************************************************************
-2016-05-13 14:35:03 INFO  Log:28 - Driver został uruchomiony
-2016-05-13 14:35:04 INFO  Log:28 - Wpisanie użytkownika
-2016-05-13 14:35:04 INFO  Log:28 - Wpisanie hasła
-2016-05-13 14:35:04 INFO  Log:28 - Wybranie metody logowanie
-2016-05-13 14:35:04 INFO  Log:28 - Przycisk Login został znaleziony
-2016-05-13 14:35:07 INFO  Log:28 - Kliknięcie przycisku logowania
-2016-05-13 14:35:07 INFO  Log:28 - Link ProfilName (w tag Span) został znaleziony
-2016-05-13 14:35:07 INFO  Log:28 - Zalogowano do Clientele
-2016-05-13 14:35:07 INFO  Log:28 - Link Realizacje został znaleziony
-2016-05-13 14:35:09 INFO  Log:28 - Pole Realizacja zostało znalezione
-2016-05-13 14:35:09 INFO  Log:28 - Wyszukiwanie projektu po RealizationID
-2016-05-13 14:35:10 INFO  Log:28 - Przycisk Szukaj został znaleziony
-2016-05-13 14:35:11 INFO  Log:28 - Projekt o ID: 33234 został wyszukany
-2016-05-13 14:35:11 INFO  Log:28 - Realizacja o ID: 33234 została znaleziona
-2016-05-13 14:35:14 INFO  Log:28 - Zakładka Zlecenia Techniczne została znaleziona
-2016-05-13 14:35:17 INFO  Log:28 - Lista wyboru typu zlecenia i typ zlecenia: Zamówienie transmisji RL II została znaleziona
-2016-05-13 14:35:17 INFO  Log:28 - Lista wyboru usługi została znaleziona
-2016-05-13 14:35:18 INFO  Log:28 - Wybrana usługa została znaleziona na liście
-2016-05-13 14:35:18 INFO  Log:28 - Przycisk OK na liście wyboru został znaleziony
-2016-05-13 14:35:20 INFO  Log:28 - Przycisk Dodaj nowe zlecenie został znaleziony
-2016-05-13 14:35:23 INFO  Log:28 - Znaleziono radio button Węzeł GTS dla A-End
-2016-05-13 14:35:25 INFO  Log:28 - Wykryto alert: 
-  - Wybierz wezel A-end
-  - Wybierz wezel B-end
-
-2016-05-13 14:35:25 INFO  Log:28 - Węzeł A-End został wybrany
-2016-05-13 14:35:26 INFO  Log:28 - Węzeł A-End został wybrany
-2016-05-13 14:35:26 INFO  Log:28 - Znaleziono pole Przepustowość
-2016-05-13 14:35:26 INFO  Log:28 - Znaleziono pole Przepustowość
-2016-05-13 14:35:26 INFO  Log:28 - Lista RL Type zostało znaleziona
-2016-05-13 14:35:27 INFO  Log:28 - Lista Port zostało znaleziona
-2016-05-13 14:35:27 INFO  Log:28 - Znaleziono pole Współrzędne geograficzne szerokość
-2016-05-13 14:35:27 INFO  Log:28 - Znaleziono pole Współrzędne geograficzne długość
-2016-05-13 14:35:28 INFO  Log:28 - Szczegóły zlecenia - 727385 [RL]
-2016-05-13 14:35:28 INFO  Log:28 - Znaleziono przycisk Do Realizacji
-2016-05-13 14:35:29 INFO  Log:28 - Szukanie linku Wyloguj ... ... ...
-2016-05-13 14:35:41 ERROR Log:34 - Link Wyloguj nie został znaleziony
-2016-05-13 14:35:41 ERROR Log:34 - Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class,&apos;glyphicon-user&apos;)]&quot;}
-Command duration or timeout: 12.08 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;DESKTOP-HT9LOUA&apos;, ip: &apos;192.168.10.178&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_79&apos;
-*** Element info: {Using=xpath, value=//span[contains(@class,&apos;glyphicon-user&apos;)]}
-Session ID: c6740024-c03d-4c0d-aafd-7c366221ad20
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=46.0.1}]
-</system-out>
-  </testcase>
-  <testcase time="22.712" classname="testCases.TCKolejkiLinkStareNowe_Test" name="main"/>
-  <testcase time="22.716" classname="testCases.TCRealizacjeLinkStareNowe_Test" name="main"/>
+  <testcase time="7.391" classname="testCases.TCLogInLogOut_Test" name="main"/>
+  <testcase time="54.961" classname="testCases.TCTestZakladek_Test" name="main"/>
+  <testcase time="20.358" classname="testCases.TCMojeOtwarteRealizacje_Test" name="main"/>
+  <testcase time="12.21" classname="testCases.TCVisibilityCalendarPBXCall_Test" name="main"/>
+  <testcase time="24.618" classname="testCases.TCKolejki_WyszukiwanieCalli_Test" name="main"/>
+  <testcase time="23.025" classname="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test" name="main"/>
+  <testcase time="36.802" classname="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test" name="main"/>
+  <testcase time="42.328" classname="testCases.TCRealizacjaCallaBladRADIOCall_Test" name="main"/>
+  <testcase time="44.861" classname="testCases.TCKolejkiLinkStareNowe_Test" name="main"/>
+  <testcase time="22.415" classname="testCases.TCRealizacjeLinkStareNowe_Test" name="main"/>
 </testsuite>

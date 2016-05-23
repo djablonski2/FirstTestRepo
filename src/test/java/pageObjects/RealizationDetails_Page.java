@@ -17,7 +17,7 @@ public class RealizationDetails_Page extends BaseClass {
 	public static WebElement tab_ZleceniaTechniczne() throws Exception {
 		try {
 			element = driver.findElement(By.xpath("//a[.='Zlecenia Techniczne']"));
-			Log.info("Zakładka Zlecenia Techniczne została znaleziona");
+			Log.debug("Zakładka Zlecenia Techniczne została znaleziona");
 		} catch (Exception e) {
 			Log.error("Nie znaleziono zakładki Zlecenia Techniczne!!!");
 			throw (e);
@@ -36,30 +36,6 @@ public class RealizationDetails_Page extends BaseClass {
 		}
 		return element;
 	}
-	
-/* Zastąpione przez jedną metodę
-  	public static WebElement lst_tabZlecTech_typZlecenia() throws Exception {
-		try {
-			element = driver.findElement(By.xpath("//select[contains(@id,'ddlCallType')]"));
-			Log.info("Lista wyboru typu zlecenia została znaleziona");
-		} catch (Exception e) {
-			Log.error("Nie znaleziono Listy wyboru typu zlecenia!!!");
-			throw (e);
-		}
-		return element;
-	}
-	public static WebElement opt_lst_tabZlecTech_typZlecenia(String lstOption) throws Exception {
-		try {
-			element = driver.findElement(By.xpath("//option[contains(.,'"+lstOption+"')]"));
-			Thread.sleep(1000);
-			Log.info("Pozycja "+lstOption+" na liście wyboru typu zlecenia została znaleziona");
-		} catch (Exception e) {
-			Log.error("Nie znaleziono pozycji "+lstOption+" na liście wyboru typu zlecenia!!!");
-			throw (e);
-		}
-		return element;
-	}
-	*/
 	
 	public static WebElement lst_tabZlecTech_wybierzUsluge() throws Exception {
 		try {
@@ -107,6 +83,28 @@ public class RealizationDetails_Page extends BaseClass {
 			Log.info("Przycisk Dodaj nowe zlecenie został znaleziony");
 		} catch (Exception e) {
 			Log.error("Nie znaleziono przycisku Dodaj nowe zlecenie!!!");
+			throw (e);
+		}
+		return element;
+	}
+	
+	public static WebElement lnk_tabZlecTech_nrZlecenia(String NrZlecenia) throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//a[.='"+ NrZlecenia + "']"));
+			Log.info("Link zlecenia został znaleziony");
+		} catch (Exception e) {
+			Log.error("Nie znaleziono linku do zlecenia!!!");
+			throw (e);
+		}
+		return element;
+	}
+	
+	public static WebElement txt_tabZlecTech_statusZlecenia(String NrZlecenia) throws Exception {
+		try {
+			element = driver.findElement(By.xpath("//tr/td[contains(.,'"+NrZlecenia+"')][1]/following-sibling::td[4]"));
+			Log.info("Status zlecenia nr "+ NrZlecenia + " to ->->->->->->->->->     "+ element.getText());
+		} catch (Exception e) {
+			Log.error("Pole tekstowe z opisem statusu dla zlecenia "+ NrZlecenia + " nie zostało znalezione!!!");
 			throw (e);
 		}
 		return element;

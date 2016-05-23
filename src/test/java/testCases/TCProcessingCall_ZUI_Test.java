@@ -1,6 +1,7 @@
 package testCases;
 
 import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -8,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import appModules.AddNewCall_Action;
 import appModules.FillNewCall_Action;
+import appModules.FindCall_Action;
 import appModules.FindRealization_Action;
 import appModules.LogOut_Action;
 import appModules.LogIn_Action;
@@ -19,10 +21,10 @@ import utility.Log;
 import utility.Utils;
 
 /***
- * Test tworzący nowy call GENERIC w wybranym projekcie i przechodzący do jego realizacji.
- * np. JIRA 752
+ * Test tworzący nowy call ZUI w wybranym projekcie i przechodzący kolejne etapy procesu.
+ * 
  */
-public class TCAddCall_Generic_Test {
+public class TCProcessingCall_ZUI_Test {
 
 	public WebDriver driver;
 	private String sTestCaseName;
@@ -42,26 +44,33 @@ public class TCAddCall_Generic_Test {
 	public void main() throws Exception {
 		try {
 			LogIn_Action.Execute();
-			
+
 			FindRealization_Action.Execute(Constant.REALIZATION_ID);
-			
 			RealizationDetails_Page.tab_ZleceniaTechniczne().click();
-			
 				//należy ukryć topMenu bo zasłania element który trzeba kliknąć
 				JavascriptExecutor js = ((JavascriptExecutor) driver);
 				js.executeScript("document.getElementById('topNav').style.display = 'none';");
-			
-			AddNewCall_Action.Execute("Zamówienie transmisji GENERIC",5);
-			
+			AddNewCall_Action.Execute("Zamówienie Usługi Internetowej II",5);
 				js.executeScript("document.getElementById('topNav').style.display = 'none';");
-
-			FillNewCall_Action.Execute_Generic(".WROCLAW", "Bełchatów (Kwiatowa 1) - 6052", "Białystok (TP Emitel Cieszyńska 3) - 9001", "40000");
-			
+			FillNewCall_Action.Execute_ZUI(".WROCLAW", "Katowice,Kolista [KA433]","Lublin,Mełgiewska [LBLL277]", "128");
 				js.executeScript("document.getElementById('topNav').style.display = 'none';");
-			
-			Log.info(CallDetails_Page.legend_SzczegolyZlecenia().getText());
+			String NrZlecenia = CallDetails_Page.legend_NrZlecenia().getText();
+			Log.info("Numer utworzonego zlecenia to: " + NrZlecenia + " a jego typ to: ZESTAWIENIE USŁUGI INTERNETOWEJ");
 			CallDetails_Page.btn_PostepyInstalacji_DoRealizacji().click();
+			RealizationDetails_Page.txt_tabZlecTech_statusZlecenia(NrZlecenia);
 			
+			FindCall_Action.Execute(NrZlecenia);
+			CallDetails_Page.btn_PrzejmijZgloszenie().click();
+			js.executeScript("document.getElementById('topNav').style.display = 'none';");
+			CallDetails_Page.btn_PostepyInstalacji_PrzyznanoAdresy().click();
+			RealizationDetails_Page.txt_tabZlecTech_statusZlecenia(NrZlecenia);
+			
+			FindCall_Action.Execute(NrZlecenia);
+			CallDetails_Page.btn_PrzejmijZgloszenie().click();
+			js.executeScript("document.getElementById('topNav').style.display = 'none';");
+			CallDetails_Page.btn_PostepyInstalacji_Zrealizowano().click();
+			RealizationDetails_Page.txt_tabZlecTech_statusZlecenia(NrZlecenia);
+
 			LogOut_Action.Execute();
 
 		} catch (Exception e) {

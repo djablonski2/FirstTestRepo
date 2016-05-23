@@ -24,12 +24,12 @@ public class FillNewCall_Action {
 		CallDetails_Page.lst_adrInsUsl_AEnd(AEnd);
 		CallDetails_Page.lst_adrInsUsl_BEnd(BEnd);
 		
-		CallDetails_Page.txt_dodatkoweInfoOPrzebieguLacza().sendKeys("Lorem ipsum dolor sit amet");
+		CallDetails_Page.txt_dodatkoweInfoOPrzebieguLacza().sendKeys("Lorem ipsum dolor sit amet - Dodatkowe informacje o przebiegu łącza");
 		CallDetails_Page.txt_daneTech_Bandwidth().clear();
 		CallDetails_Page.txt_daneTech_Bandwidth().sendKeys(Bandwidth);
+		CallDetails_Page.txt_daneTech_Description().sendKeys("Lorem ipsum dolor sit amet - Tekstowy opis przebiegu połączenia");
 
 		Log.info("Wymagane pola dla calla GENERIC zostały wypełnione.");
-
 	}
 	
 	/**
@@ -50,13 +50,32 @@ public class FillNewCall_Action {
 		CallDetails_Page.lst_adrInsUsl_AEnd(AEnd);
 		CallDetails_Page.lst_adrInsUsl_BEnd(BEnd);
 		
+		CallDetails_Page.txt_dodatkoweInfoOPrzebieguLacza().sendKeys("Lorem ipsum dolor sit amet - Dodatkowe informacje o przebiegu łącza");
 		CallDetails_Page.txt_daneTech_Bandwidth().clear();
 		CallDetails_Page.txt_daneTech_Bandwidth().sendKeys(Bandwidth);
 		CallDetails_Page.lst_daneTech_RLType(RLType);
 		CallDetails_Page.lst_daneTech_Port(Port);
 		CallDetails_Page.txt_daneTech_WspolGeog_Szer().sendKeys(WspolGeog_Szer);
 		CallDetails_Page.txt_daneTech_WspolGeog_Dlug().sendKeys(WspolGeog_Dlug);
-
+		
+		Log.info("Wymagane pola dla calla RADIO zostały wypełnione.");
+	}
+	
+	public static void Execute_ZUI(String lstWykonawcaValue, String AEnd, String BEnd, String Bandwidth) throws Exception {
+		
+		//Parametry techniczne
+		CallDetails_Page.lst_RealizowanePrzez(lstWykonawcaValue);
+		CallDetails_Page.chkb_PrzyznanieAdresowIP().click();
+		CallDetails_Page.lst_ZakonczenieLaczaAEnd(AEnd);
+		CallDetails_Page.lst_ZakonczenieLaczaBEnd(BEnd);
+		CallDetails_Page.txt_PrzepustowoscDlaPolaczeniaZInternetem().sendKeys(Bandwidth);
+		CallDetails_Page.txt_ZaterminowaneNa().sendKeys("karta_0123456789");
+		
+		//Adresacja IP
+		CallDetails_Page.txt_ParamWAN_Abonent().sendKeys("127.0.0.1/11");
+		CallDetails_Page.txt_ParamWAN_GTS().sendKeys("127.0.0.1/11");
+		
+		Log.info("Wymagane pola dla calla ZUI zostały wypełnione.");
 	}
 
 }
