@@ -5,27 +5,27 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78135" started-at="2016-05-23T10:34:02Z" finished-at="2016-05-23T10:35:20Z">
+  <suite name="Default suite" duration-ms="46419" started-at="2016-05-31T12:06:09Z" finished-at="2016-05-31T12:06:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78135" started-at="2016-05-23T10:34:02Z" finished-at="2016-05-23T10:35:20Z">
-      <class name="testCases.TCProcessingCall_ZUI_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="beforeMethod" is-config="true" duration-ms="8184" started-at="2016-05-23T12:34:02Z" finished-at="2016-05-23T12:34:10Z">
+    <test name="Default test" duration-ms="46419" started-at="2016-05-31T12:06:09Z" finished-at="2016-05-31T12:06:55Z">
+      <class name="testCases.TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test@17d05cdb]" name="beforeMethod" is-config="true" duration-ms="9755" started-at="2016-05-31T14:06:09Z" finished-at="2016-05-31T14:06:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="main" duration-ms="69912" started-at="2016-05-23T12:34:10Z" finished-at="2016-05-23T12:35:20Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test@17d05cdb]" name="main" duration-ms="36618" started-at="2016-05-31T14:06:18Z" description="Launches the WordPress site" finished-at="2016-05-31T14:06:55Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCProcessingCall_ZUI_Test@17b90c55]" name="afterMethod" is-config="true" duration-ms="23" started-at="2016-05-23T12:35:20Z" finished-at="2016-05-23T12:35:20Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test@17d05cdb]" name="afterMethod" is-config="true" duration-ms="28" started-at="2016-05-31T14:06:55Z" finished-at="2016-05-31T14:06:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCases.TCProcessingCall_ZUI_Test -->
+      </class> <!-- testCases.TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

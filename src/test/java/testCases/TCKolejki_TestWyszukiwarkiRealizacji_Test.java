@@ -10,13 +10,14 @@ import appModules.LogIn_Action;
 import pageObjects.BaseClass;
 import pageObjects.Home_Page;
 import pageObjects.QueuesSearch_Page;
+import pageObjects.RealiztionSearch_Page;
 import utility.Log;
 import utility.Utils;
 
-public class TCKolejki_WyszukiwanieCalli_Test {
+public class TCKolejki_TestWyszukiwarkiRealizacji_Test {
 	public WebDriver driver;
 	private String sTestCaseName;
-	
+
 	@BeforeMethod
 	public void beforeMethod() throws Exception {
 		DOMConfigurator.configure("log4j.xml");
@@ -33,19 +34,26 @@ public class TCKolejki_WyszukiwanieCalli_Test {
 			LogIn_Action.Execute();
 			Thread.sleep(1000);
 			
-			Home_Page.lnk_topMenu_Kolejki().click();
+			Home_Page.lnk_topMenu_Realizacje().click();
 			Thread.sleep(1000);
-			Log.info("Wyświetlenie zakładki Costning");
 			
-			QueuesSearch_Page.txt_AssignedTo().click();
-			QueuesSearch_Page.txt_AssignedToFillUp("djablonski").click();
-			QueuesSearch_Page.txt_WorkingUser().click();
-			QueuesSearch_Page.txt_WorkingUserFillUp("djablonski").click();
+			RealiztionSearch_Page.txt_Realizacja().sendKeys("33234");
+			RealiztionSearch_Page.btn_Szukaj().click();
+			RealiztionSearch_Page.cell_JTable_NrRealizacji("33234").isDisplayed();
 			
-			QueuesSearch_Page.txt_Klient().sendKeys("GTS");
+			RealiztionSearch_Page.txt_Realizacja().clear();
+			RealiztionSearch_Page.txt_ServiceID().sendKeys("847152");
+			RealiztionSearch_Page.btn_Szukaj().click();
+			RealiztionSearch_Page.cell_JTable_NrRealizacji("33234").isDisplayed();
 			
-			Utils.takeScreenshot(sTestCaseName+ "_Kolejki");
-			QueuesSearch_Page.btn_Szukaj().click();
+			RealiztionSearch_Page.txt_ServiceID().clear();
+			RealiztionSearch_Page.txt_Klient().sendKeys("LIDL");
+			RealiztionSearch_Page.txt_PM().click();
+			RealiztionSearch_Page.txt_PMFillUp("Jabłoński").click();
+			RealiztionSearch_Page.txt_Status().click();
+			RealiztionSearch_Page.txt_StatusFillUp("W realizacji").click();
+			RealiztionSearch_Page.btn_Szukaj().click();
+			RealiztionSearch_Page.cell_JTable_NrRealizacji("33234").isDisplayed();
 
 			LogOut_Action.Execute();
 

@@ -45,7 +45,6 @@ public class Utils {
 
 	/***
 	 * Na podstawie property pobranego z pom.xml ustawia adres środowiska
-	 * 
 	 * @return
 	 */
 	public static String selectEnvJenkins() {

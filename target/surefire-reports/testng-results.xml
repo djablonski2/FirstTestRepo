@@ -32,176 +32,176 @@
       <![CDATA[Zalogowano do Clientele]]>
     </line>
   </reporter-output>
-  <suite name="SuiteAllTC" duration-ms="371033" started-at="2016-05-23T12:30:51Z" finished-at="2016-05-23T12:37:02Z">
+  <suite name="SuiteAllTC" duration-ms="383124" started-at="2016-05-31T12:30:57Z" finished-at="2016-05-31T12:37:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="371033" started-at="2016-05-23T12:30:51Z" finished-at="2016-05-23T12:37:02Z">
+    <test name="Test" duration-ms="383124" started-at="2016-05-31T12:30:57Z" finished-at="2016-05-31T12:37:20Z">
       <class name="testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@22f3f59]" name="beforeMethod" is-config="true" duration-ms="7092" started-at="2016-05-23T14:33:30Z" finished-at="2016-05-23T14:33:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@57ddf5ee]" name="beforeMethod" is-config="true" duration-ms="9651" started-at="2016-05-31T14:33:59Z" finished-at="2016-05-31T14:34:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@22f3f59]" name="main" duration-ms="23025" started-at="2016-05-23T14:33:37Z" finished-at="2016-05-23T14:34:00Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@57ddf5ee]" name="main" duration-ms="23406" started-at="2016-05-31T14:34:08Z" finished-at="2016-05-31T14:34:32Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@22f3f59]" name="afterMethod" is-config="true" duration-ms="62" started-at="2016-05-23T14:34:00Z" finished-at="2016-05-23T14:34:00Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test@57ddf5ee]" name="afterMethod" is-config="true" duration-ms="20" started-at="2016-05-31T14:34:32Z" finished-at="2016-05-31T14:34:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCCosting_WyszukiwanieProjektuCostingowego_Test -->
       <class name="testCases.TCCosting_ProjektCostingowy_ExportUslug_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@6be7ed2d]" name="beforeMethod" is-config="true" duration-ms="9284" started-at="2016-05-23T14:34:00Z" finished-at="2016-05-23T14:34:09Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@2d3d0953]" name="beforeMethod" is-config="true" duration-ms="7446" started-at="2016-05-31T14:34:32Z" finished-at="2016-05-31T14:34:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@6be7ed2d]" name="main" duration-ms="36803" started-at="2016-05-23T14:34:09Z" finished-at="2016-05-23T14:34:46Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@2d3d0953]" name="main" duration-ms="35089" started-at="2016-05-31T14:34:39Z" finished-at="2016-05-31T14:35:14Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@6be7ed2d]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-05-23T14:34:46Z" finished-at="2016-05-23T14:34:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCCosting_ProjektCostingowy_ExportUslug_Test@2d3d0953]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-05-31T14:35:14Z" finished-at="2016-05-31T14:35:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCCosting_ProjektCostingowy_ExportUslug_Test -->
       <class name="testCases.TCRealizacjaCallaBladRADIOCall_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@47845cb3]" name="beforeMethod" is-config="true" duration-ms="8856" started-at="2016-05-23T14:34:46Z" finished-at="2016-05-23T14:34:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@22f3f59]" name="beforeMethod" is-config="true" duration-ms="9210" started-at="2016-05-31T14:35:14Z" finished-at="2016-05-31T14:35:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@47845cb3]" name="main" duration-ms="42327" started-at="2016-05-23T14:34:55Z" finished-at="2016-05-23T14:35:37Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@22f3f59]" name="main" duration-ms="51289" started-at="2016-05-31T14:35:24Z" finished-at="2016-05-31T14:36:15Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@47845cb3]" name="afterMethod" is-config="true" duration-ms="27" started-at="2016-05-23T14:35:37Z" finished-at="2016-05-23T14:35:37Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjaCallaBladRADIOCall_Test@22f3f59]" name="afterMethod" is-config="true" duration-ms="18" started-at="2016-05-31T14:36:15Z" finished-at="2016-05-31T14:36:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCRealizacjaCallaBladRADIOCall_Test -->
       <class name="testCases.TCKolejki_WyszukiwanieCalli_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@2d3d0953]" name="beforeMethod" is-config="true" duration-ms="7828" started-at="2016-05-23T14:32:57Z" finished-at="2016-05-23T14:33:05Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@5b4bf56d]" name="beforeMethod" is-config="true" duration-ms="8125" started-at="2016-05-31T14:33:23Z" finished-at="2016-05-31T14:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@2d3d0953]" name="main" duration-ms="24619" started-at="2016-05-23T14:33:05Z" finished-at="2016-05-23T14:33:30Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@5b4bf56d]" name="main" duration-ms="27855" started-at="2016-05-31T14:33:31Z" finished-at="2016-05-31T14:33:59Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@2d3d0953]" name="afterMethod" is-config="true" duration-ms="20" started-at="2016-05-23T14:33:30Z" finished-at="2016-05-23T14:33:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCKolejki_WyszukiwanieCalli_Test@5b4bf56d]" name="afterMethod" is-config="true" duration-ms="19" started-at="2016-05-31T14:33:59Z" finished-at="2016-05-31T14:33:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCKolejki_WyszukiwanieCalli_Test -->
       <class name="testCases.TCKolejkiLinkStareNowe_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@42e21073]" name="beforeMethod" is-config="true" duration-ms="7796" started-at="2016-05-23T14:35:37Z" finished-at="2016-05-23T14:35:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@6be7ed2d]" name="beforeMethod" is-config="true" duration-ms="9320" started-at="2016-05-31T14:36:15Z" finished-at="2016-05-31T14:36:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@42e21073]" name="main" duration-ms="44861" started-at="2016-05-23T14:35:45Z" finished-at="2016-05-23T14:36:30Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@6be7ed2d]" name="main" duration-ms="22930" started-at="2016-05-31T14:36:24Z" finished-at="2016-05-31T14:36:47Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@42e21073]" name="afterMethod" is-config="true" duration-ms="30" started-at="2016-05-23T14:36:30Z" finished-at="2016-05-23T14:36:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCKolejkiLinkStareNowe_Test@6be7ed2d]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-05-31T14:36:47Z" finished-at="2016-05-31T14:36:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCKolejkiLinkStareNowe_Test -->
       <class name="testCases.TCTestZakladek_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCTestZakladek_Test@8dae665]" name="beforeMethod" is-config="true" duration-ms="6910" started-at="2016-05-23T14:31:09Z" finished-at="2016-05-23T14:31:16Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCTestZakladek_Test@2c307811]" name="beforeMethod" is-config="true" duration-ms="12609" started-at="2016-05-31T14:31:18Z" finished-at="2016-05-31T14:31:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCTestZakladek_Test@8dae665]" name="main" duration-ms="54961" started-at="2016-05-23T14:31:16Z" finished-at="2016-05-23T14:32:11Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCTestZakladek_Test@2c307811]" name="main" duration-ms="58943" started-at="2016-05-31T14:31:30Z" finished-at="2016-05-31T14:32:29Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCTestZakladek_Test@8dae665]" name="afterMethod" is-config="true" duration-ms="21" started-at="2016-05-23T14:32:11Z" finished-at="2016-05-23T14:32:11Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCTestZakladek_Test@2c307811]" name="afterMethod" is-config="true" duration-ms="24" started-at="2016-05-31T14:32:29Z" finished-at="2016-05-31T14:32:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCTestZakladek_Test -->
       <class name="testCases.TCRealizacjeLinkStareNowe_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@7a61053]" name="beforeMethod" is-config="true" duration-ms="9155" started-at="2016-05-23T14:36:30Z" finished-at="2016-05-23T14:36:39Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@47845cb3]" name="beforeMethod" is-config="true" duration-ms="7743" started-at="2016-05-31T14:36:47Z" finished-at="2016-05-31T14:36:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@7a61053]" name="main" duration-ms="22414" started-at="2016-05-23T14:36:39Z" finished-at="2016-05-23T14:37:02Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@47845cb3]" name="main" duration-ms="25048" started-at="2016-05-31T14:36:55Z" finished-at="2016-05-31T14:37:20Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@7a61053]" name="afterMethod" is-config="true" duration-ms="23" started-at="2016-05-23T14:37:02Z" finished-at="2016-05-23T14:37:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCRealizacjeLinkStareNowe_Test@47845cb3]" name="afterMethod" is-config="true" duration-ms="18" started-at="2016-05-31T14:37:20Z" finished-at="2016-05-31T14:37:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCRealizacjeLinkStareNowe_Test -->
       <class name="testCases.TCMojeOtwarteRealizacje_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@5b4bf56d]" name="beforeMethod" is-config="true" duration-ms="7204" started-at="2016-05-23T14:32:11Z" finished-at="2016-05-23T14:32:18Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@221abac1]" name="beforeMethod" is-config="true" duration-ms="10335" started-at="2016-05-31T14:32:29Z" finished-at="2016-05-31T14:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@5b4bf56d]" name="main" duration-ms="20359" started-at="2016-05-23T14:32:18Z" finished-at="2016-05-23T14:32:38Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@221abac1]" name="main" duration-ms="19742" started-at="2016-05-31T14:32:40Z" finished-at="2016-05-31T14:32:59Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@5b4bf56d]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-05-23T14:32:38Z" finished-at="2016-05-23T14:32:38Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCMojeOtwarteRealizacje_Test@221abac1]" name="afterMethod" is-config="true" duration-ms="18" started-at="2016-05-31T14:32:59Z" finished-at="2016-05-31T14:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCMojeOtwarteRealizacje_Test -->
       <class name="testCases.TCVisibilityCalendarPBXCall_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@57ddf5ee]" name="beforeMethod" is-config="true" duration-ms="6808" started-at="2016-05-23T14:32:38Z" finished-at="2016-05-23T14:32:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@8dae665]" name="beforeMethod" is-config="true" duration-ms="7731" started-at="2016-05-31T14:32:59Z" finished-at="2016-05-31T14:33:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@57ddf5ee]" name="main" duration-ms="12211" started-at="2016-05-23T14:32:45Z" finished-at="2016-05-23T14:32:57Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@8dae665]" name="main" duration-ms="15664" started-at="2016-05-31T14:33:07Z" finished-at="2016-05-31T14:33:23Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@57ddf5ee]" name="afterMethod" is-config="true" duration-ms="15" started-at="2016-05-23T14:32:57Z" finished-at="2016-05-23T14:32:57Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCVisibilityCalendarPBXCall_Test@8dae665]" name="afterMethod" is-config="true" duration-ms="21" started-at="2016-05-31T14:33:23Z" finished-at="2016-05-31T14:33:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testCases.TCVisibilityCalendarPBXCall_Test -->
       <class name="testCases.TCLogInLogOut_Test">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@221abac1]" name="beforeMethod" is-config="true" duration-ms="10859" started-at="2016-05-23T14:30:51Z" finished-at="2016-05-23T14:31:01Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@7a67ab8f]" name="beforeMethod" is-config="true" duration-ms="11002" started-at="2016-05-31T14:30:57Z" finished-at="2016-05-31T14:31:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@221abac1]" name="main" duration-ms="7392" started-at="2016-05-23T14:31:01Z" finished-at="2016-05-23T14:31:09Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testCases.TCLogInLogOut_Test@7a67ab8f]" name="main" duration-ms="9759" started-at="2016-05-31T14:31:08Z" finished-at="2016-05-31T14:31:18Z">
           <reporter-output>
             <line>
               <![CDATA[Zalogowano do Clientele]]>
             </line>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@221abac1]" name="afterMethod" is-config="true" duration-ms="17" started-at="2016-05-23T14:31:09Z" finished-at="2016-05-23T14:31:09Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TCLogInLogOut_Test@7a67ab8f]" name="afterMethod" is-config="true" duration-ms="33" started-at="2016-05-31T14:31:18Z" finished-at="2016-05-31T14:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

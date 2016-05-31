@@ -6,6 +6,7 @@ pageObjects\RealizationDetails_Page.class
 pageObjects\CallDetails_Page.class
 appModules\FindRealization_Action.class
 testCases\TCRealizacjeLinkStareNowe_Test.class
+testCases\TCKolejki_TestWyszukiwarkiRealizacji_Test.class
 utility\Listener.class
 testCases\TCCosting_WyszukiwanieProjektuCostingowego_Test.class
 testCases\TCKolejki_WyszukiwanieCalli_Test.class
@@ -28,6 +29,7 @@ testCases\TCRealizacjaCallaBladRADIOCall_Test.class
 pageObjects\BaseClass.class
 testCases\TCVisibilityCalendarPBXCall_Test.class
 testCases\TCProcessingCall_ZUI_Test.class
+testCases\TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test.class
 pageObjects\CostingProjDetails_Page.class
 testCases\TCLogInLogOut_Test.class
 appModules\ShowAllTabs_Action.class

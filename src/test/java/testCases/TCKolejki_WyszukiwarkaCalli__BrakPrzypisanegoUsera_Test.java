@@ -13,7 +13,11 @@ import pageObjects.QueuesSearch_Page;
 import utility.Log;
 import utility.Utils;
 
-public class TCKolejki_WyszukiwanieCalli_Test {
+/**
+ * Test sprawdzający czy po wyszukaniu calli po kolejce na liście znajdują się też kole bez przypisanych userów
+ * @author Dominik Jabłoński
+ */
+public class TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test {
 	public WebDriver driver;
 	private String sTestCaseName;
 	
@@ -28,6 +32,7 @@ public class TCKolejki_WyszukiwanieCalli_Test {
 	}
 
 	@Test
+
 	public void main() throws Exception {
 		try {
 			LogIn_Action.Execute();
@@ -38,14 +43,10 @@ public class TCKolejki_WyszukiwanieCalli_Test {
 			Log.info("Wyświetlenie zakładki Costning");
 			
 			QueuesSearch_Page.txt_AssignedTo().click();
-			QueuesSearch_Page.txt_AssignedToFillUp("djablonski").click();
-			QueuesSearch_Page.txt_WorkingUser().click();
-			QueuesSearch_Page.txt_WorkingUserFillUp("djablonski").click();
-			
-			QueuesSearch_Page.txt_Klient().sendKeys("GTS");
-			
-			Utils.takeScreenshot(sTestCaseName+ "_Kolejki");
+			QueuesSearch_Page.txt_AssignedToFillUp("5ESS").click();
 			QueuesSearch_Page.btn_Szukaj().click();
+			
+			Utils.doesElementContainText("//table[@class='jtable']//tr[1]//td[9]", "");
 
 			LogOut_Action.Execute();
 

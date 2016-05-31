@@ -7,10 +7,12 @@ D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCProcessingCa
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\RealiztionSearch_Page.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCVisibilityCalendarPBXCall_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\appModules\FillNewCall_Action.java
+D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCKolejki_WyszukiwarkaCalli__BrakPrzypisanegoUsera_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCProcessingCall_Generic_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\LogIn_Page.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\utility\Listeners.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\CostingSearch_Page.java
+D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCKolejki_TestWyszukiwarkiRealizacji_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCProcessingCall_ZUI_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCRealizacjeLinkStareNowe_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\Home_Page.java
@@ -19,8 +21,8 @@ D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\RealizationD
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCCosting_WyszukiwanieProjektuCostingowego_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCKolejkiLinkStareNowe_Test.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\testCases\TCCosting_ProjektCostingowy_ExportUslug_Test.java
-D:\eclipse\workspace\ClientelePOFramework\src\test\java\utility\Listener.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\utility\Constant.java
+D:\eclipse\workspace\ClientelePOFramework\src\test\java\utility\Listener.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\CallDetails_Page.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\QueuesSearch_Page.java
 D:\eclipse\workspace\ClientelePOFramework\src\test\java\pageObjects\BaseClass.java
